@@ -178,94 +178,131 @@ function App() {
   // Login screen removed as credentials are hardcoded.
   // If auth fails, the alerts just won't load (console errors).
 
+  // Common formats for "Preloading"
+  const COMMON_FORMATS = ["IMAX", "4DX", "3D", "2D", "PVR", "INOX", "DOLBY", "ICE", "GOLD"];
+
+  const toggleFormat = (fmt) => {
+    const current = filterFormat ? filterFormat.split(',').map(s => s.trim()) : [];
+    if (current.includes(fmt)) {
+      setFilterFormat(current.filter(f => f !== fmt).join(', '));
+    } else {
+      setFilterFormat([...current, fmt].join(', '));
+    }
+  };
+
   return (
     <div className="container">
       <div className="header">
-        <h1>🎬 Showting Pro</h1>
+        <div className="logo">
+          <h1>🍿 Showtime</h1>
+          <span className="badge">PRO</span>
+        </div>
         <button className="logout-btn" onClick={() => { localStorage.clear(); window.location.reload(); }}>Logout</button>
       </div>
 
-      <div className="card">
-        <h2>Schedule Alert</h2>
-        <form onSubmit={addAlert}>
-
-          <div className="form-group">
-            <label>Mode</label>
-            <div className="toggle-group">
-              <button type="button" className={!useCustomUrl ? 'active' : ''} onClick={() => setUseCustomUrl(false)}>Select Movie</button>
-              <button type="button" className={useCustomUrl ? 'active' : ''} onClick={() => setUseCustomUrl(true)}>Custom URL</button>
-            </div>
+      <div className="main-content">
+        <div className="card glass-panel">
+          <div className="tabs">
+            <button className={!useCustomUrl ? 'tab active' : 'tab'} onClick={() => setUseCustomUrl(false)}>Select Movie</button>
+            <button className={useCustomUrl ? 'tab active' : 'tab'} onClick={() => setUseCustomUrl(true)}>Custom URL</button>
           </div>
 
-          {!useCustomUrl ? (
-            <>
-              <div className="form-group">
-                <label>City</label>
-                <select value={selectedCity} onChange={(e) => setSelectedCity(e.target.value)}>
-                  <option value="">Select City...</option>
-                  {cities.map(c => <option key={c.code} value={c.name}>{c.name}</option>)}
-                </select>
-              </div>
+          <form onSubmit={addAlert}>
+            {!useCustomUrl ? (
+              <div className="grid-2">
+                <div className="form-group">
+                  <label>City</label>
+                  <select value={selectedCity} onChange={(e) => setSelectedCity(e.target.value)}>
+                    <option value="">Select City...</option>
+                    {cities.map(c => <option key={c.code} value={c.name}>{c.name}</option>)}
+                  </select>
+                </div>
 
-              <div className="form-group">
-                <label>Movie</label>
-                <select value={selectedMovie} onChange={(e) => setSelectedMovie(e.target.value)} disabled={!selectedCity}>
-                  <option value="">{selectedCity ? "Select Movie..." : "Select City First"}</option>
-                  {selectedCity && movies[selectedCity]?.map(m => (
-                    <option key={m.url} value={JSON.stringify(m)}>{m.title}</option>
-                  ))}
-                </select>
+                <div className="form-group">
+                  <label>Movie</label>
+                  <select value={selectedMovie} onChange={(e) => setSelectedMovie(e.target.value)} disabled={!selectedCity}>
+                    <option value="">{selectedCity ? "Select Movie..." : "Select City First"}</option>
+                    {selectedCity && movies[selectedCity]?.map(m => (
+                      <option key={m.url} value={JSON.stringify(m)}>{m.title}</option>
+                    ))}
+                  </select>
+                </div>
               </div>
-            </>
-          ) : (
+            ) : (
+              <div className="form-group">
+                <label>BookMyShow URL</label>
+                <input type="text" placeholder="https://in.bookmyshow.com/..." value={customUrl} onChange={(e) => setCustomUrl(e.target.value)} />
+              </div>
+            )}
+
             <div className="form-group">
-              <label>BookMyShow URL</label>
-              <input type="text" placeholder="https://..." value={customUrl} onChange={(e) => setCustomUrl(e.target.value)} />
-            </div>
-          )}
-
-          <div className="form-row">
-            <div className="form-group half">
-              <label>Format / Theatre</label>
-              <input type="text" placeholder="IMAX, PVR, 4DX..." value={filterFormat} onChange={(e) => setFilterFormat(e.target.value)} />
-            </div>
-            <div className="form-group half">
-              <label>Time Preference</label>
-              <select value={filterTime} onChange={(e) => setFilterTime(e.target.value)}>
-                <option value="">Any Time</option>
-                <option value="MORNING">Morning (Before 12 PM)</option>
-                <option value="AFTERNOON">Afternoon (12 PM - 4 PM)</option>
-                <option value="EVENING">Evening (4 PM - 8 PM)</option>
-                <option value="NIGHT">Night (After 8 PM)</option>
-              </select>
-            </div>
-          </div>
-
-          <div className="form-group">
-            <label>WhatsApp Number (Optional)</label>
-            <input type="text" placeholder="Override default number..." value={newPhone} onChange={(e) => setNewPhone(e.target.value)} />
-          </div>
-
-          <button type="submit" disabled={loading}>{loading ? 'Saving...' : 'Track Movie'}</button>
-        </form>
-      </div>
-
-      <div className="alerts-list">
-        <h2>Active Alerts ({alerts.length})</h2>
-        {alerts.length === 0 ? <p>No alerts active.</p> : (
-          alerts.map((alert, index) => (
-            <div key={index} className="alert-item">
-              <div>
-                <h3>{alert.name}</h3>
-                <small>{alert.city || "Custom URL"}</small>
-                {alert.filters && <div className="tags">
-                  {alert.filters.map(f => <span key={f} className="tag">{f}</span>)}
-                </div>}
+              <label>Filters (Formats / Theatres)</label>
+              <div className="chip-container">
+                {COMMON_FORMATS.map(fmt => (
+                  <button
+                    key={fmt}
+                    type="button"
+                    className={`chip ${filterFormat.includes(fmt) ? 'selected' : ''}`}
+                    onClick={() => toggleFormat(fmt)}
+                  >
+                    {fmt}
+                  </button>
+                ))}
               </div>
-              <button onClick={() => deleteAlert(index)}>🗑️</button>
+              <input
+                type="text"
+                placeholder="Or type custom (e.g. Luxe, EPIQ)..."
+                value={filterFormat}
+                onChange={(e) => setFilterFormat(e.target.value)}
+                className="mt-2"
+              />
             </div>
-          ))
-        )}
+
+            <div className="grid-2">
+              <div className="form-group">
+                <label>Time Preference</label>
+                <select value={filterTime} onChange={(e) => setFilterTime(e.target.value)}>
+                  <option value="">Any Time</option>
+                  <option value="MORNING">🌅 Morning (Before 12 PM)</option>
+                  <option value="AFTERNOON">☀️ Afternoon (12 PM - 4 PM)</option>
+                  <option value="EVENING">🌆 Evening (4 PM - 8 PM)</option>
+                  <option value="NIGHT">🌙 Night (After 8 PM)</option>
+                </select>
+              </div>
+
+              <div className="form-group">
+                <label>WhatsApp (Optional)</label>
+                <input type="text" placeholder="Override number..." value={newPhone} onChange={(e) => setNewPhone(e.target.value)} />
+              </div>
+            </div>
+
+            <button type="submit" className="primary-btn" disabled={loading}>
+              {loading ? 'Scheduling...' : 'Start Tracking'}
+            </button>
+          </form>
+        </div>
+
+        <div className="alerts-section">
+          <h2>Active Trackers ({alerts.length})</h2>
+          <div className="alerts-grid">
+            {alerts.length === 0 ? <div className="empty-state">No active trackers. Add one above!</div> : (
+              alerts.map((alert, index) => (
+                <div key={index} className="alert-card glass-panel">
+                  <div className="alert-header">
+                    <h3>{alert.name}</h3>
+                    <button className="delete-icon" onClick={() => deleteAlert(index)}>×</button>
+                  </div>
+                  <div className="alert-details">
+                    <span className="badge city">{alert.city || "Custom Link"}</span>
+                    {alert.filters && alert.filters.map(f => (
+                      <span key={f} className="badge filter">{f.replace('TIME:', '⏰ ')}</span>
+                    ))}
+                  </div>
+                </div>
+              ))
+            )}
+          </div>
+        </div>
       </div>
     </div>
   )
