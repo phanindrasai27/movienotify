@@ -19,11 +19,12 @@ function App() {
   // Metadata state
   const [cities, setCities] = useState([]);
   const [movies, setMovies] = useState({});
+  const [theatres, setTheatres] = useState({});
 
   // Form state
   const [selectedCity, setSelectedCity] = useState('');
   const [selectedMovie, setSelectedMovie] = useState('');
-  const [selectedMovieUrl, setSelectedMovieUrl] = useState('');
+  const [selectedTheatre, setSelectedTheatre] = useState('');
   const [customUrl, setCustomUrl] = useState('');
   const [useCustomUrl, setUseCustomUrl] = useState(false);
 
@@ -47,21 +48,22 @@ function App() {
       const octokit = getOctokit();
       const [owner, repoName] = repo.split('/');
 
-      // Fetch Cities
-      try {
-        const { data: cityData } = await octokit.repos.getContent({
-          owner, repo: repoName, path: 'data/cities.json',
-        });
-        setCities(JSON.parse(atob(cityData.content)));
-      } catch (e) { console.warn("Could not fetch cities", e); }
+      const fetchJson = async (path) => {
+        try {
+          const { data } = await octokit.repos.getContent({ owner, repo: repoName, path });
+          return JSON.parse(atob(data.content));
+        } catch (e) { return null; }
+      };
 
-      // Fetch Movies
-      try {
-        const { data: movieData } = await octokit.repos.getContent({
-          owner, repo: repoName, path: 'data/movies.json',
-        });
-        setMovies(JSON.parse(atob(movieData.content)));
-      } catch (e) { console.warn("Could not fetch movies", e); }
+      const [c, m, t] = await Promise.all([
+        fetchJson('data/cities.json'),
+        fetchJson('data/movies.json'),
+        fetchJson('data/theatres.json')
+      ]);
+
+      if (c) setCities(c);
+      if (m) setMovies(m);
+      if (t) setTheatres(t);
 
     } catch (error) {
       console.error("Error fetching metadata:", error);
@@ -105,6 +107,7 @@ function App() {
     // Process filters
     const filtersArray = [];
     if (filterFormat) filtersArray.push(filterFormat);
+    if (selectedTheatre) filtersArray.push(selectedTheatre); // Add theatre as filter
     if (filterTime) filtersArray.push(`TIME:${filterTime}`); // Special syntax for time
 
     setLoading(true);
@@ -137,6 +140,7 @@ function App() {
       setAlerts(updatedAlerts);
       // Reset form
       setSelectedMovie('');
+      setSelectedTheatre('');
       setCustomUrl('');
       setNewPhone('');
       setFilterFormat('');
@@ -190,6 +194,12 @@ function App() {
     }
   };
 
+  // Helper to group movies
+  const getMoviesForCity = () => {
+    if (!selectedCity || !movies[selectedCity]) return [];
+    return movies[selectedCity];
+  };
+
   return (
     <div className="container">
       <div className="header">
@@ -222,8 +232,10 @@ function App() {
                   <label>Movie</label>
                   <select value={selectedMovie} onChange={(e) => setSelectedMovie(e.target.value)} disabled={!selectedCity}>
                     <option value="">{selectedCity ? "Select Movie..." : "Select City First"}</option>
-                    {selectedCity && movies[selectedCity]?.map(m => (
-                      <option key={m.url} value={JSON.stringify(m)}>{m.title}</option>
+                    {getMoviesForCity().map(m => (
+                      <option key={m.url} value={JSON.stringify(m)}>
+                        {m.status === 'COMING_SOON' ? '🔜 ' : ''}{m.title}
+                      </option>
                     ))}
                   </select>
                 </div>
@@ -235,8 +247,20 @@ function App() {
               </div>
             )}
 
+            {!useCustomUrl && selectedCity && (
+              <div className="form-group">
+                <label>Specific Theatre (Optional)</label>
+                <select value={selectedTheatre} onChange={(e) => setSelectedTheatre(e.target.value)}>
+                  <option value="">Any Theatre</option>
+                  {theatres[selectedCity]?.map(t => (
+                    <option key={t.url} value={t.name}>{t.name}</option>
+                  ))}
+                </select>
+              </div>
+            )}
+
             <div className="form-group">
-              <label>Filters (Formats / Theatres)</label>
+              <label>Formats (e.g. IMAX, 4DX)</label>
               <div className="chip-container">
                 {COMMON_FORMATS.map(fmt => (
                   <button
