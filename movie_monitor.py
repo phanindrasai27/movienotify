@@ -52,80 +52,101 @@ def check_tickets():
     for alert in alerts:
         movie_url = alert.get("url")
         movie_name = alert.get("name", "Unknown Movie")
-        phone = alert.get("phone") # User's WhatsApp number
-        filters = alert.get("filters", []) # List of keywords e.g. ["IMAX", "PVR"]
+        phone = alert.get("phone") 
+        filters = alert.get("filters", []) 
         
         if not movie_url:
             continue
 
-        print(f"Checking: {movie_name} ({movie_url})")
-        if filters:
-            print(f"  Filters: {filters}")
+        print(f"Checking: {movie_name}")
+        
+        # Separate filters
+        time_filters = [f.split(':')[1] for f in filters if f.startswith('TIME:')]
+        text_filters = [f for f in filters if not f.startswith('TIME:')]
 
         try:
             response = requests.get(movie_url, headers=headers)
             response.raise_for_status()
             soup = BeautifulSoup(response.text, 'html.parser')
-            
             page_text = soup.get_text().lower()
             
             if "book tickets" in page_text:
-                print(f"  'Book Tickets' found for {movie_name}.")
+                print(f"  'Book Tickets' found.")
                 
-                # If no filters, notify immediately
+                # If no filters, notify
                 if not filters:
-                    print(f"  No filters set. Sending notification.")
-                    send_whatsapp_message(phone, f"🎟️ Tickets available for *{movie_name}*! \n\nBook now: {movie_url}")
+                    send_whatsapp_message(phone, f"🎟️ Tickets available for *{movie_name}*! \n\nBook: {movie_url}")
                     continue
-                
-                # If filters exist, try to find the booking link
-                # BMS usually has a 'book tickets' button that links to the showtimes page
-                # We look for an <a> tag containing 'book tickets' or similar class
+
+                # Find booking link
                 booking_link = None
-                
-                # Strategy 1: Look for link with "book tickets" text
                 for a in soup.find_all('a', href=True):
                     if "book tickets" in a.get_text().lower():
                         booking_link = a['href']
                         break
                 
-                # Strategy 2: Look for common BMS booking button classes (fallback)
-                if not booking_link:
-                    # This is a guess, BMS changes classes often. 
-                    # But often the URL itself changes from /movies/... to /buytickets/...
-                    # If we are already on the movie page, we might need to construct the URL
-                    pass
-
                 if booking_link:
-                    # Handle relative URLs
                     if not booking_link.startswith('http'):
                         booking_link = "https://in.bookmyshow.com" + booking_link
                         
-                    print(f"  Checking booking page: {booking_link}")
-                    
+                    print(f"  Checking showtimes: {booking_link}")
                     try:
                         booking_response = requests.get(booking_link, headers=headers)
-                        booking_response.raise_for_status()
                         booking_soup = BeautifulSoup(booking_response.text, 'html.parser')
                         booking_text = booking_soup.get_text().lower()
                         
-                        # Check for ANY of the filters
-                        found_filters = [f for f in filters if f.lower() in booking_text]
-                        
-                        if found_filters:
-                            print(f"  ✅ Found matching filters: {found_filters}")
-                            send_whatsapp_message(phone, f"🎟️ Tickets available for *{movie_name}*! \n\nMatches: {', '.join(found_filters)}\nBook now: {booking_link}")
+                        # 1. Check Text Filters (IMAX, PVR)
+                        matches_text = False
+                        if text_filters:
+                            found = [f for f in text_filters if f.lower() in booking_text]
+                            if found:
+                                matches_text = True
+                                print(f"    Matched text filters: {found}")
                         else:
-                            print(f"  ❌ Tickets open, but no matching filters found.")
+                            matches_text = True # No text filters = pass
+
+                        # 2. Check Time Filters (Morning, Evening)
+                        matches_time = False
+                        if time_filters:
+                            # Heuristic: Look for time strings like "10:00 AM", "06:30 PM"
+                            # This is tricky without a proper parser, but we can scan the text
+                            # for times and categorize them.
+                            import re
+                            times_found = re.findall(r'(\d{1,2}):(\d{2})\s?(AM|PM)', booking_response.text, re.IGNORECASE)
                             
+                            for h, m, p in times_found:
+                                hour = int(h)
+                                period = p.upper()
+                                if period == 'PM' and hour != 12: hour += 12
+                                if period == 'AM' and hour == 12: hour = 0
+                                
+                                # Categories
+                                is_morning = 5 <= hour < 12
+                                is_afternoon = 12 <= hour < 16
+                                is_evening = 16 <= hour < 20
+                                is_night = hour >= 20 or hour < 5
+                                
+                                if 'MORNING' in time_filters and is_morning: matches_time = True
+                                if 'AFTERNOON' in time_filters and is_afternoon: matches_time = True
+                                if 'EVENING' in time_filters and is_evening: matches_time = True
+                                if 'NIGHT' in time_filters and is_night: matches_time = True
+                                
+                            if matches_time:
+                                print(f"    Matched time filters.")
+                        else:
+                            matches_time = True # No time filters = pass
+
+                        if matches_text and matches_time:
+                            send_whatsapp_message(phone, f"🎟️ Tickets found for *{movie_name}*! \n\nFilters Matched! \nBook: {booking_link}")
+                        else:
+                            print("    Filters did not match.")
+
                     except Exception as e:
                         print(f"  Error checking booking page: {e}")
-                        # Fallback: Notify anyway if we can't check filters? 
-                        # No, user asked for filters to avoid spam.
                 else:
-                    print("  Could not find booking link to verify filters. Skipping notification.")
+                    print("  Could not find booking link.")
             else:
-                print(f"  Tickets not yet available for {movie_name}.")
+                print(f"  Not open yet.")
 
         except Exception as e:
             print(f"Error checking {movie_name}: {e}")
