@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Chennai",
+        "code": "CHEN"
+    },
+    {
+        "name": "Bengaluru",
+        "code": "BANG"
+    },
+    {
+        "name": "Hyderabad",
+        "code": "HYD"
+    },
+    {
+        "name": "Mumbai",
+        "code": "MUMBAI"
+    },
+    {
+        "name": "Delhi-NCR",
+        "code": "NCR"
+    },
+    {
+        "name": "Kochi",
+        "code": "KOCHI"
+    }
+]
