@@ -7,14 +7,26 @@ function App() {
   const [repo, setRepo] = useState(localStorage.getItem('github_repo') || '');
   const [alerts, setAlerts] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [newUrl, setNewUrl] = useState('');
+
+  // Metadata state
+  const [cities, setCities] = useState([]);
+  const [movies, setMovies] = useState({});
+
+  // Form state
+  const [selectedCity, setSelectedCity] = useState('');
+  const [selectedMovie, setSelectedMovie] = useState('');
+  const [selectedMovieUrl, setSelectedMovieUrl] = useState('');
+  const [customUrl, setCustomUrl] = useState('');
+  const [useCustomUrl, setUseCustomUrl] = useState(false);
+
   const [newPhone, setNewPhone] = useState('');
-  const [newFilters, setNewFilters] = useState('');
-  const [movieName, setMovieName] = useState('');
+  const [filterFormat, setFilterFormat] = useState('');
+  const [filterTime, setFilterTime] = useState('');
 
   useEffect(() => {
     if (token && repo) {
       fetchAlerts();
+      fetchMetadata();
     }
   }, [token, repo]);
 
@@ -22,10 +34,37 @@ function App() {
     localStorage.setItem('github_token', token);
     localStorage.setItem('github_repo', repo);
     fetchAlerts();
+    fetchMetadata();
   };
 
   const getOctokit = () => {
     return new Octokit({ auth: token });
+  };
+
+  const fetchMetadata = async () => {
+    try {
+      const octokit = getOctokit();
+      const [owner, repoName] = repo.split('/');
+
+      // Fetch Cities
+      try {
+        const { data: cityData } = await octokit.repos.getContent({
+          owner, repo: repoName, path: 'data/cities.json',
+        });
+        setCities(JSON.parse(atob(cityData.content)));
+      } catch (e) { console.warn("Could not fetch cities", e); }
+
+      // Fetch Movies
+      try {
+        const { data: movieData } = await octokit.repos.getContent({
+          owner, repo: repoName, path: 'data/movies.json',
+        });
+        setMovies(JSON.parse(atob(movieData.content)));
+      } catch (e) { console.warn("Could not fetch movies", e); }
+
+    } catch (error) {
+      console.error("Error fetching metadata:", error);
+    }
   };
 
   const fetchAlerts = async () => {
@@ -34,16 +73,11 @@ function App() {
       const octokit = getOctokit();
       const [owner, repoName] = repo.split('/');
       const { data } = await octokit.repos.getContent({
-        owner,
-        repo: repoName,
-        path: 'alerts.json',
+        owner, repo: repoName, path: 'alerts.json',
       });
-
-      const content = atob(data.content);
-      setAlerts(JSON.parse(content));
+      setAlerts(JSON.parse(atob(data.content)));
     } catch (error) {
       console.error("Error fetching alerts:", error);
-      alert("Failed to fetch alerts. Check your token and repo name.");
     } finally {
       setLoading(false);
     }
@@ -51,7 +85,26 @@ function App() {
 
   const addAlert = async (e) => {
     e.preventDefault();
-    if (!newUrl || !movieName) return;
+
+    let movieName = '';
+    let movieUrl = '';
+
+    if (useCustomUrl) {
+      movieName = "Custom Link"; // User can rename later if we add edit
+      movieUrl = customUrl;
+    } else {
+      if (!selectedMovie) return;
+      const movieObj = JSON.parse(selectedMovie);
+      movieName = movieObj.title;
+      movieUrl = movieObj.url;
+    }
+
+    if (!movieUrl) return;
+
+    // Process filters
+    const filtersArray = [];
+    if (filterFormat) filtersArray.push(filterFormat);
+    if (filterTime) filtersArray.push(`TIME:${filterTime}`); // Special syntax for time
 
     setLoading(true);
     try {
@@ -60,37 +113,33 @@ function App() {
 
       // 1. Get current SHA
       const { data: currentFile } = await octokit.repos.getContent({
-        owner,
-        repo: repoName,
-        path: 'alerts.json',
+        owner, repo: repoName, path: 'alerts.json',
       });
 
-      // 2. Process filters
-      const filtersArray = newFilters.split(',').map(f => f.trim()).filter(f => f.length > 0);
-
-      // 3. Append new alert
+      // 2. Append new alert
       const updatedAlerts = [...alerts, {
         name: movieName,
-        url: newUrl,
+        url: movieUrl,
         phone: newPhone || undefined,
-        filters: filtersArray.length > 0 ? filtersArray : undefined
+        filters: filtersArray.length > 0 ? filtersArray : undefined,
+        city: selectedCity || undefined
       }];
 
-      // 4. Update file
+      // 3. Update file
       await octokit.repos.createOrUpdateFileContents({
-        owner,
-        repo: repoName,
-        path: 'alerts.json',
+        owner, repo: repoName, path: 'alerts.json',
         message: `Add alert for ${movieName}`,
         content: btoa(JSON.stringify(updatedAlerts, null, 2)),
         sha: currentFile.sha,
       });
 
       setAlerts(updatedAlerts);
-      setNewUrl('');
-      setMovieName('');
+      // Reset form
+      setSelectedMovie('');
+      setCustomUrl('');
       setNewPhone('');
-      setNewFilters('');
+      setFilterFormat('');
+      setFilterTime('');
       alert("Alert added successfully!");
     } catch (error) {
       console.error("Error adding alert:", error);
@@ -102,32 +151,20 @@ function App() {
 
   const deleteAlert = async (indexToDelete) => {
     if (!confirm("Are you sure you want to delete this alert?")) return;
-
     setLoading(true);
     try {
       const octokit = getOctokit();
       const [owner, repoName] = repo.split('/');
-
-      // 1. Get current SHA
       const { data: currentFile } = await octokit.repos.getContent({
-        owner,
-        repo: repoName,
-        path: 'alerts.json',
+        owner, repo: repoName, path: 'alerts.json',
       });
-
-      // 2. Filter out alert
       const updatedAlerts = alerts.filter((_, index) => index !== indexToDelete);
-
-      // 3. Update file
       await octokit.repos.createOrUpdateFileContents({
-        owner,
-        repo: repoName,
-        path: 'alerts.json',
+        owner, repo: repoName, path: 'alerts.json',
         message: `Remove alert`,
         content: btoa(JSON.stringify(updatedAlerts, null, 2)),
         sha: currentFile.sha,
       });
-
       setAlerts(updatedAlerts);
     } catch (error) {
       console.error("Error deleting alert:", error);
@@ -140,24 +177,12 @@ function App() {
   if (!token || !repo) {
     return (
       <div className="container">
-        <h1>🎬 Movie Alert Setup</h1>
+        <h1>🎬 Showting Pro Setup</h1>
         <div className="card">
-          <label>GitHub Personal Access Token</label>
-          <input
-            type="password"
-            value={token}
-            onChange={(e) => setToken(e.target.value)}
-            placeholder="ghp_..."
-          />
-          <label>Repository (username/repo)</label>
-          <input
-            type="text"
-            value={repo}
-            onChange={(e) => setRepo(e.target.value)}
-            placeholder="phanindrasai27/movie-alerts"
-          />
+          <p>Enter your GitHub details to connect.</p>
+          <input type="text" placeholder="GitHub Token (ghp_...)" value={token} onChange={(e) => setToken(e.target.value)} />
+          <input type="text" placeholder="Repository (user/repo)" value={repo} onChange={(e) => setRepo(e.target.value)} />
           <button onClick={saveCredentials}>Connect</button>
-          <p className="help-text">Token needs 'repo' scope.</p>
         </div>
       </div>
     );
@@ -165,66 +190,92 @@ function App() {
 
   return (
     <div className="container">
-      <header>
-        <h1>🎬 Movie Alerts</h1>
-        <button className="secondary" onClick={() => {
-          localStorage.clear();
-          window.location.reload();
-        }}>Logout</button>
-      </header>
+      <div className="header">
+        <h1>🎬 Showting Pro</h1>
+        <button className="logout-btn" onClick={() => { localStorage.clear(); window.location.reload(); }}>Logout</button>
+      </div>
 
       <div className="card">
-        <h2>Add New Alert</h2>
+        <h2>Schedule Alert</h2>
         <form onSubmit={addAlert}>
-          <input
-            type="text"
-            placeholder="Movie Name (e.g. Gladiator 2)"
-            value={movieName}
-            onChange={(e) => setMovieName(e.target.value)}
-            required
-          />
-          <input
-            type="url"
-            placeholder="BookMyShow URL (https://...)"
-            value={newUrl}
-            onChange={(e) => setNewUrl(e.target.value)}
-            required
-          />
-          <input
-            type="text"
-            placeholder="Filters (e.g. IMAX, PVR, 4DX)"
-            value={newFilters}
-            onChange={(e) => setNewFilters(e.target.value)}
-          />
-          <input
-            type="text"
-            placeholder="WhatsApp Number (Optional override)"
-            value={newPhone}
-            onChange={(e) => setNewPhone(e.target.value)}
-          />
-          <button type="submit" disabled={loading}>
-            {loading ? 'Saving...' : 'Track Movie'}
-          </button>
+
+          <div className="form-group">
+            <label>Mode</label>
+            <div className="toggle-group">
+              <button type="button" className={!useCustomUrl ? 'active' : ''} onClick={() => setUseCustomUrl(false)}>Select Movie</button>
+              <button type="button" className={useCustomUrl ? 'active' : ''} onClick={() => setUseCustomUrl(true)}>Custom URL</button>
+            </div>
+          </div>
+
+          {!useCustomUrl ? (
+            <>
+              <div className="form-group">
+                <label>City</label>
+                <select value={selectedCity} onChange={(e) => setSelectedCity(e.target.value)}>
+                  <option value="">Select City...</option>
+                  {cities.map(c => <option key={c.code} value={c.name}>{c.name}</option>)}
+                </select>
+              </div>
+
+              <div className="form-group">
+                <label>Movie</label>
+                <select value={selectedMovie} onChange={(e) => setSelectedMovie(e.target.value)} disabled={!selectedCity}>
+                  <option value="">{selectedCity ? "Select Movie..." : "Select City First"}</option>
+                  {selectedCity && movies[selectedCity]?.map(m => (
+                    <option key={m.url} value={JSON.stringify(m)}>{m.title}</option>
+                  ))}
+                </select>
+              </div>
+            </>
+          ) : (
+            <div className="form-group">
+              <label>BookMyShow URL</label>
+              <input type="text" placeholder="https://..." value={customUrl} onChange={(e) => setCustomUrl(e.target.value)} />
+            </div>
+          )}
+
+          <div className="form-row">
+            <div className="form-group half">
+              <label>Format / Theatre</label>
+              <input type="text" placeholder="IMAX, PVR, 4DX..." value={filterFormat} onChange={(e) => setFilterFormat(e.target.value)} />
+            </div>
+            <div className="form-group half">
+              <label>Time Preference</label>
+              <select value={filterTime} onChange={(e) => setFilterTime(e.target.value)}>
+                <option value="">Any Time</option>
+                <option value="MORNING">Morning (Before 12 PM)</option>
+                <option value="AFTERNOON">Afternoon (12 PM - 4 PM)</option>
+                <option value="EVENING">Evening (4 PM - 8 PM)</option>
+                <option value="NIGHT">Night (After 8 PM)</option>
+              </select>
+            </div>
+          </div>
+
+          <div className="form-group">
+            <label>WhatsApp Number (Optional)</label>
+            <input type="text" placeholder="Override default number..." value={newPhone} onChange={(e) => setNewPhone(e.target.value)} />
+          </div>
+
+          <button type="submit" disabled={loading}>{loading ? 'Saving...' : 'Track Movie'}</button>
         </form>
       </div>
 
       <div className="alerts-list">
         <h2>Active Alerts ({alerts.length})</h2>
-        {loading && <p>Loading...</p>}
-        {alerts.map((alert, index) => (
-          <div key={index} className="alert-item">
-            <div>
-              <h3>{alert.name}</h3>
-              <a href={alert.url} target="_blank" rel="noreferrer">{alert.url}</a>
-              {alert.filters && alert.filters.length > 0 && (
-                <p className="filters">🔍 {alert.filters.join(', ')}</p>
-              )}
-              {alert.phone && <p>📞 {alert.phone}</p>}
+        {alerts.length === 0 ? <p>No alerts active.</p> : (
+          alerts.map((alert, index) => (
+            <div key={index} className="alert-item">
+              <div>
+                <h3>{alert.name}</h3>
+                <small>{alert.city || "Custom URL"}</small>
+                {alert.filters && <div className="tags">
+                  {alert.filters.map(f => <span key={f} className="tag">{f}</span>)}
+                </div>}
+              </div>
+              <button onClick={() => deleteAlert(index)}>🗑️</button>
             </div>
-            <button className="delete-btn" onClick={() => deleteAlert(index)}>🗑️</button>
-          </div>
-        ))}
-        {alerts.length === 0 && !loading && <p>No alerts active.</p>}
+          ))
+        )}
       </div>
     </div>
   )
