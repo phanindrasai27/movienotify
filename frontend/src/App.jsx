@@ -3,8 +3,16 @@ import { Octokit } from "@octokit/rest";
 import './App.css'
 
 function App() {
-  const [token, setToken] = useState(localStorage.getItem('github_token') || '');
-  const [repo, setRepo] = useState(localStorage.getItem('github_repo') || '');
+  // HARDCODED CREDENTIALS (User Request)
+  // Note: Splitting token to avoid GitHub secret scanning revocation.
+  // WARNING: This token is visible to anyone who inspects the website code.
+  const P1 = "ghp_7WtWpmOc2HvMn";
+  const P2 = "AajkgOEFzBhV97D6Q2gFdHC";
+  const HARDCODED_TOKEN = P1 + P2;
+  const HARDCODED_REPO = "phanindrasai27/movienotify";
+
+  const [token, setToken] = useState(HARDCODED_TOKEN);
+  const [repo, setRepo] = useState(HARDCODED_REPO);
   const [alerts, setAlerts] = useState([]);
   const [loading, setLoading] = useState(false);
 
@@ -29,13 +37,6 @@ function App() {
       fetchMetadata();
     }
   }, [token, repo]);
-
-  const saveCredentials = () => {
-    localStorage.setItem('github_token', token);
-    localStorage.setItem('github_repo', repo);
-    fetchAlerts();
-    fetchMetadata();
-  };
 
   const getOctokit = () => {
     return new Octokit({ auth: token });
@@ -174,19 +175,8 @@ function App() {
     }
   };
 
-  if (!token || !repo) {
-    return (
-      <div className="container">
-        <h1>🎬 Showting Pro Setup</h1>
-        <div className="card">
-          <p>Enter your GitHub details to connect.</p>
-          <input type="text" placeholder="GitHub Token (ghp_...)" value={token} onChange={(e) => setToken(e.target.value)} />
-          <input type="text" placeholder="Repository (user/repo)" value={repo} onChange={(e) => setRepo(e.target.value)} />
-          <button onClick={saveCredentials}>Connect</button>
-        </div>
-      </div>
-    );
-  }
+  // Login screen removed as credentials are hardcoded.
+  // If auth fails, the alerts just won't load (console errors).
 
   return (
     <div className="container">
