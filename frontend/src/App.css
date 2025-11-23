@@ -1,4 +1,4 @@
-```:root {
+:root {
   --bg-color: #0f172a;
   --card-bg: #1e293b;
   --primary: #3b82f6;
@@ -245,5 +245,3 @@ select:focus {
 .mt-2 {
   margin-top: 0.5rem;
 }
-
-```
