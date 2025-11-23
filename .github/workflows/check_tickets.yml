@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    if: github.event_name == 'push' # Only deploy on push, not schedule
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch' # Deploy on push or manual trigger
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
