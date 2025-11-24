@@ -2,527 +2,611 @@
   "Chennai": {
     "movies": [
       {
-        "Title": "Book De De Pyaar De 2",
-        "EventCode": "de-de-pyaar-de-2-movie-tickets-in-chennai-MV171264",
-        "City": "Chennai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "De De Pyaar De 2",
+        "url": "https://www.district.in/movies/de-de-pyaar-de-2-movie-tickets-in-chennai-MV171264",
+        "status": "NOW_SHOWING",
+        "city": "Chennai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Mastiii 4",
-        "EventCode": "mastiii-4-movie-tickets-in-chennai-MV170761",
-        "City": "Chennai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Mastiii 4",
+        "url": "https://www.district.in/movies/mastiii-4-movie-tickets-in-chennai-MV170761",
+        "status": "NOW_SHOWING",
+        "city": "Chennai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Kantara: A Legend Chapter-1",
-        "EventCode": "kantara-a-legend-chapter-1-movie-tickets-in-chennai-MV165830",
-        "City": "Chennai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Kantara: A Legend Chapter-1",
+        "url": "https://www.district.in/movies/kantara-a-legend-chapter-1-movie-tickets-in-chennai-MV165830",
+        "status": "NOW_SHOWING",
+        "city": "Chennai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book The Face of the Faceless (2023)",
-        "EventCode": "the-face-of-the-faceless-2023-movie-tickets-in-chennai-MV167596",
-        "City": "Chennai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "The Face of the Faceless (2023)",
+        "url": "https://www.district.in/movies/the-face-of-the-faceless-2023-movie-tickets-in-chennai-MV167596",
+        "status": "NOW_SHOWING",
+        "city": "Chennai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Wicked: For Good",
-        "EventCode": "wicked-for-good-movie-tickets-in-chennai-MV176543",
-        "City": "Chennai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Wicked: For Good",
+        "url": "https://www.district.in/movies/wicked-for-good-movie-tickets-in-chennai-MV176543",
+        "status": "NOW_SHOWING",
+        "city": "Chennai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book The Girlfriend",
-        "EventCode": "the-girlfriend-movie-tickets-in-chennai-MV167570",
-        "City": "Chennai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "The Girlfriend",
+        "url": "https://www.district.in/movies/the-girlfriend-movie-tickets-in-chennai-MV167570",
+        "status": "NOW_SHOWING",
+        "city": "Chennai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Predator: Badlands",
-        "EventCode": "predator-badlands-movie-tickets-in-chennai-MV185586",
-        "City": "Chennai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Predator: Badlands",
+        "url": "https://www.district.in/movies/predator-badlands-movie-tickets-in-chennai-MV185586",
+        "status": "NOW_SHOWING",
+        "city": "Chennai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book 120 Bahadur",
-        "EventCode": "120-bahadur-movie-tickets-in-chennai-MV177733",
-        "City": "Chennai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "120 Bahadur",
+        "url": "https://www.district.in/movies/120-bahadur-movie-tickets-in-chennai-MV177733",
+        "status": "NOW_SHOWING",
+        "city": "Chennai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Bison Kaalamaadan",
-        "EventCode": "bison-kaalamaadan-movie-tickets-in-chennai-MV173276",
-        "City": "Chennai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Bison Kaalamaadan",
+        "url": "https://www.district.in/movies/bison-kaalamaadan-movie-tickets-in-chennai-MV173276",
+        "status": "NOW_SHOWING",
+        "city": "Chennai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Now You See Me: Now You Don\u2019t",
-        "EventCode": "now-you-see-me-now-you-don-t-movie-tickets-in-chennai-MV186215",
-        "City": "Chennai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Now You See Me: Now You Don\u2019t",
+        "url": "https://www.district.in/movies/now-you-see-me-now-you-don-t-movie-tickets-in-chennai-MV186215",
+        "status": "NOW_SHOWING",
+        "city": "Chennai",
+        "language": "Unknown",
+        "format": "2D"
+      },
+      {
+        "title": "Chennai Express (2013)",
+        "url": "https://www.district.in/movies/chennai-express-2013-movie-tickets-in-delhi-ncr-MV138357",
+        "status": "NOW_SHOWING",
+        "city": "Chennai",
+        "language": "Unknown",
+        "format": "2D"
       }
     ],
-    "theatres": [
-      {
-        "TheatreName": "Unknown Theatre (Scraped)",
-        "TheatreCode": "unknowntheatrescraped",
-        "City": "Chennai"
-      }
-    ],
+    "theatres": [],
     "filters": {
-      "Languages": [],
-      "Formats": []
+      "formats": [
+        "2D"
+      ],
+      "languages": []
     }
   },
   "Bengaluru": {
     "movies": [
       {
-        "Title": "Book Wicked: For Good",
-        "EventCode": "wicked-for-good-movie-tickets-in-bengaluru-MV176543",
-        "City": "Bengaluru",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Wicked: For Good",
+        "url": "https://www.district.in/movies/wicked-for-good-movie-tickets-in-bengaluru-MV176543",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Tere Ishk Mein",
-        "EventCode": "tere-ishk-mein-movie-tickets-in-bengaluru-MV163774",
-        "City": "Bengaluru",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Tere Ishk Mein",
+        "url": "https://www.district.in/movies/tere-ishk-mein-movie-tickets-in-bengaluru-MV163774",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book The Girlfriend",
-        "EventCode": "the-girlfriend-movie-tickets-in-bengaluru-MV167570",
-        "City": "Bengaluru",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "The Girlfriend",
+        "url": "https://www.district.in/movies/the-girlfriend-movie-tickets-in-bengaluru-MV167570",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Mastiii 4",
-        "EventCode": "mastiii-4-movie-tickets-in-bengaluru-MV170761",
-        "City": "Bengaluru",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Mastiii 4",
+        "url": "https://www.district.in/movies/mastiii-4-movie-tickets-in-bengaluru-MV170761",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book De De Pyaar De 2",
-        "EventCode": "de-de-pyaar-de-2-movie-tickets-in-bengaluru-MV171264",
-        "City": "Bengaluru",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "De De Pyaar De 2",
+        "url": "https://www.district.in/movies/de-de-pyaar-de-2-movie-tickets-in-bengaluru-MV171264",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Mass Jathara",
-        "EventCode": "mass-jathara-movie-tickets-in-bengaluru-MV181742",
-        "City": "Bengaluru",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Mass Jathara",
+        "url": "https://www.district.in/movies/mass-jathara-movie-tickets-in-bengaluru-MV181742",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Thamma",
-        "EventCode": "thamma-movie-tickets-in-bengaluru-MV181726",
-        "City": "Bengaluru",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Thamma",
+        "url": "https://www.district.in/movies/thamma-movie-tickets-in-bengaluru-MV181726",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book 120 Bahadur",
-        "EventCode": "120-bahadur-movie-tickets-in-bengaluru-MV177733",
-        "City": "Bengaluru",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "120 Bahadur",
+        "url": "https://www.district.in/movies/120-bahadur-movie-tickets-in-bengaluru-MV177733",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Predator: Badlands",
-        "EventCode": "predator-badlands-movie-tickets-in-bengaluru-MV185586",
-        "City": "Bengaluru",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Predator: Badlands",
+        "url": "https://www.district.in/movies/predator-badlands-movie-tickets-in-bengaluru-MV185586",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Kantara: A Legend Chapter-1",
-        "EventCode": "kantara-a-legend-chapter-1-movie-tickets-in-bengaluru-MV165830",
-        "City": "Bengaluru",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Kantara: A Legend Chapter-1",
+        "url": "https://www.district.in/movies/kantara-a-legend-chapter-1-movie-tickets-in-bengaluru-MV165830",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru",
+        "language": "Unknown",
+        "format": "2D"
       }
     ],
-    "theatres": [
-      {
-        "TheatreName": "Unknown Theatre (Scraped)",
-        "TheatreCode": "unknowntheatrescraped",
-        "City": "Bengaluru"
-      }
-    ],
+    "theatres": [],
     "filters": {
-      "Languages": [],
-      "Formats": []
+      "formats": [
+        "2D"
+      ],
+      "languages": []
     }
   },
   "Hyderabad": {
     "movies": [
       {
-        "Title": "Book The Girlfriend",
-        "EventCode": "the-girlfriend-movie-tickets-in-hyderabad-MV167570",
-        "City": "Hyderabad",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "The Girlfriend",
+        "url": "https://www.district.in/movies/the-girlfriend-movie-tickets-in-hyderabad-MV167570",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Mastiii 4",
-        "EventCode": "mastiii-4-movie-tickets-in-hyderabad-MV170761",
-        "City": "Hyderabad",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Mastiii 4",
+        "url": "https://www.district.in/movies/mastiii-4-movie-tickets-in-hyderabad-MV170761",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book F1 The Movie",
-        "EventCode": "f1-the-movie-movie-tickets-in-hyderabad-MV175956",
-        "City": "Hyderabad",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "F1 The Movie",
+        "url": "https://www.district.in/movies/f1-the-movie-movie-tickets-in-hyderabad-MV175956",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book The Face of the Faceless (2023)",
-        "EventCode": "the-face-of-the-faceless-2023-movie-tickets-in-hyderabad-MV167596",
-        "City": "Hyderabad",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "The Face of the Faceless (2023)",
+        "url": "https://www.district.in/movies/the-face-of-the-faceless-2023-movie-tickets-in-hyderabad-MV167596",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book The Business Man (2012)",
-        "EventCode": "the-business-man-2012-movie-tickets-in-hyderabad-MV151036",
-        "City": "Hyderabad",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "The Business Man (2012)",
+        "url": "https://www.district.in/movies/the-business-man-2012-movie-tickets-in-hyderabad-MV151036",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Wicked: For Good",
-        "EventCode": "wicked-for-good-movie-tickets-in-hyderabad-MV176543",
-        "City": "Hyderabad",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Wicked: For Good",
+        "url": "https://www.district.in/movies/wicked-for-good-movie-tickets-in-hyderabad-MV176543",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Thamma",
-        "EventCode": "thamma-movie-tickets-in-hyderabad-MV181726",
-        "City": "Hyderabad",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Thamma",
+        "url": "https://www.district.in/movies/thamma-movie-tickets-in-hyderabad-MV181726",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book 120 Bahadur",
-        "EventCode": "120-bahadur-movie-tickets-in-hyderabad-MV177733",
-        "City": "Hyderabad",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "120 Bahadur",
+        "url": "https://www.district.in/movies/120-bahadur-movie-tickets-in-hyderabad-MV177733",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Dilwale Dulhaniya Le Jayenge (1995)",
-        "EventCode": "dilwale-dulhaniya-le-jayenge-1995-movie-tickets-in-hyderabad-MV141245",
-        "City": "Hyderabad",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Dilwale Dulhaniya Le Jayenge (1995)",
+        "url": "https://www.district.in/movies/dilwale-dulhaniya-le-jayenge-1995-movie-tickets-in-hyderabad-MV141245",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book De De Pyaar De 2",
-        "EventCode": "de-de-pyaar-de-2-movie-tickets-in-hyderabad-MV171264",
-        "City": "Hyderabad",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "De De Pyaar De 2",
+        "url": "https://www.district.in/movies/de-de-pyaar-de-2-movie-tickets-in-hyderabad-MV171264",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad",
+        "language": "Unknown",
+        "format": "2D"
       }
     ],
-    "theatres": [
-      {
-        "TheatreName": "Unknown Theatre (Scraped)",
-        "TheatreCode": "unknowntheatrescraped",
-        "City": "Hyderabad"
-      }
-    ],
+    "theatres": [],
     "filters": {
-      "Languages": [],
-      "Formats": []
+      "formats": [
+        "2D"
+      ],
+      "languages": []
     }
   },
   "Mumbai": {
     "movies": [
       {
-        "Title": "Book Kantara: A Legend Chapter-1",
-        "EventCode": "kantara-a-legend-chapter-1-movie-tickets-in-mumbai-MV165830",
-        "City": "Mumbai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Kantara: A Legend Chapter-1",
+        "url": "https://www.district.in/movies/kantara-a-legend-chapter-1-movie-tickets-in-mumbai-MV165830",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book F1 The Movie",
-        "EventCode": "f1-the-movie-movie-tickets-in-mumbai-MV175956",
-        "City": "Mumbai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "F1 The Movie",
+        "url": "https://www.district.in/movies/f1-the-movie-movie-tickets-in-mumbai-MV175956",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Tere Ishk Mein",
-        "EventCode": "tere-ishk-mein-movie-tickets-in-mumbai-MV163774",
-        "City": "Mumbai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Tere Ishk Mein",
+        "url": "https://www.district.in/movies/tere-ishk-mein-movie-tickets-in-mumbai-MV163774",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book De De Pyaar De 2",
-        "EventCode": "de-de-pyaar-de-2-movie-tickets-in-mumbai-MV171264",
-        "City": "Mumbai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "De De Pyaar De 2",
+        "url": "https://www.district.in/movies/de-de-pyaar-de-2-movie-tickets-in-mumbai-MV171264",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Teri Baaton Mein Aisa Uljha Jiya (2024)",
-        "EventCode": "teri-baaton-mein-aisa-uljha-jiya-2024-movie-tickets-in-mumbai-MV169320",
-        "City": "Mumbai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Teri Baaton Mein Aisa Uljha Jiya (2024)",
+        "url": "https://www.district.in/movies/teri-baaton-mein-aisa-uljha-jiya-2024-movie-tickets-in-mumbai-MV169320",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Ameena (2024)",
-        "EventCode": "ameena-2024-movie-tickets-in-mumbai-MV172309",
-        "City": "Mumbai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Ameena (2024)",
+        "url": "https://www.district.in/movies/ameena-2024-movie-tickets-in-mumbai-MV172309",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Mastiii 4",
-        "EventCode": "mastiii-4-movie-tickets-in-mumbai-MV170761",
-        "City": "Mumbai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Mastiii 4",
+        "url": "https://www.district.in/movies/mastiii-4-movie-tickets-in-mumbai-MV170761",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Wicked: For Good",
-        "EventCode": "wicked-for-good-movie-tickets-in-mumbai-MV176543",
-        "City": "Mumbai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Wicked: For Good",
+        "url": "https://www.district.in/movies/wicked-for-good-movie-tickets-in-mumbai-MV176543",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Om Shanti Om (2007)",
-        "EventCode": "om-shanti-om-2007-movie-tickets-in-mumbai-MV157817",
-        "City": "Mumbai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Om Shanti Om (2007)",
+        "url": "https://www.district.in/movies/om-shanti-om-2007-movie-tickets-in-mumbai-MV157817",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Munjya (2024)",
-        "EventCode": "munjya-2024-movie-tickets-in-mumbai-MV167510",
-        "City": "Mumbai",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Munjya (2024)",
+        "url": "https://www.district.in/movies/munjya-2024-movie-tickets-in-mumbai-MV167510",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai",
+        "language": "Unknown",
+        "format": "2D"
       }
     ],
-    "theatres": [
-      {
-        "TheatreName": "Unknown Theatre (Scraped)",
-        "TheatreCode": "unknowntheatrescraped",
-        "City": "Mumbai"
-      }
-    ],
+    "theatres": [],
     "filters": {
-      "Languages": [],
-      "Formats": []
+      "formats": [
+        "2D"
+      ],
+      "languages": []
     }
   },
   "Delhi-NCR": {
     "movies": [
       {
-        "Title": "Book Kantara: A Legend Chapter-1",
-        "EventCode": "kantara-a-legend-chapter-1-movie-tickets-in-delhi-ncr-MV165830",
-        "City": "Delhi-NCR",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Kantara: A Legend Chapter-1",
+        "url": "https://www.district.in/movies/kantara-a-legend-chapter-1-movie-tickets-in-delhi-ncr-MV165830",
+        "status": "NOW_SHOWING",
+        "city": "Delhi-NCR",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Thamma",
-        "EventCode": "thamma-movie-tickets-in-delhi-ncr-MV181726",
-        "City": "Delhi-NCR",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Thamma",
+        "url": "https://www.district.in/movies/thamma-movie-tickets-in-delhi-ncr-MV181726",
+        "status": "NOW_SHOWING",
+        "city": "Delhi-NCR",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Eko",
-        "EventCode": "eko-movie-tickets-in-delhi-ncr-MV209846",
-        "City": "Delhi-NCR",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Eko",
+        "url": "https://www.district.in/movies/eko-movie-tickets-in-delhi-ncr-MV209846",
+        "status": "NOW_SHOWING",
+        "city": "Delhi-NCR",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Dies Irae",
-        "EventCode": "dies-irae-movie-tickets-in-delhi-ncr-MV206021",
-        "City": "Delhi-NCR",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Dies Irae",
+        "url": "https://www.district.in/movies/dies-irae-movie-tickets-in-delhi-ncr-MV206021",
+        "status": "NOW_SHOWING",
+        "city": "Delhi-NCR",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Chennai Express (2013)",
-        "EventCode": "chennai-express-2013-movie-tickets-in-delhi-ncr-MV138357",
-        "City": "Delhi-NCR",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Chennai Express (2013)",
+        "url": "https://www.district.in/movies/chennai-express-2013-movie-tickets-in-delhi-ncr-MV138357",
+        "status": "NOW_SHOWING",
+        "city": "Delhi-NCR",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Jolly LLB 3",
-        "EventCode": "jolly-llb-3-movie-tickets-in-delhi-ncr-MV172789",
-        "City": "Delhi-NCR",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Jolly LLB 3",
+        "url": "https://www.district.in/movies/jolly-llb-3-movie-tickets-in-delhi-ncr-MV172789",
+        "status": "NOW_SHOWING",
+        "city": "Delhi-NCR",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book 120 Bahadur",
-        "EventCode": "120-bahadur-movie-tickets-in-delhi-ncr-MV177733",
-        "City": "Delhi-NCR",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "120 Bahadur",
+        "url": "https://www.district.in/movies/120-bahadur-movie-tickets-in-delhi-ncr-MV177733",
+        "status": "NOW_SHOWING",
+        "city": "Delhi-NCR",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book The Running Man",
-        "EventCode": "the-running-man-movie-tickets-in-delhi-ncr-MV199419",
-        "City": "Delhi-NCR",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "The Running Man",
+        "url": "https://www.district.in/movies/the-running-man-movie-tickets-in-delhi-ncr-MV199419",
+        "status": "NOW_SHOWING",
+        "city": "Delhi-NCR",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Haq",
-        "EventCode": "haq-movie-tickets-in-delhi-ncr-MV206631",
-        "City": "Delhi-NCR",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Haq",
+        "url": "https://www.district.in/movies/haq-movie-tickets-in-delhi-ncr-MV206631",
+        "status": "NOW_SHOWING",
+        "city": "Delhi-NCR",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Ikk Kudi",
-        "EventCode": "ikk-kudi-movie-tickets-in-delhi-ncr-MV186654",
-        "City": "Delhi-NCR",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Ikk Kudi",
+        "url": "https://www.district.in/movies/ikk-kudi-movie-tickets-in-delhi-ncr-MV186654",
+        "status": "NOW_SHOWING",
+        "city": "Delhi-NCR",
+        "language": "Unknown",
+        "format": "2D"
+      },
+      {
+        "title": "Agra",
+        "url": "https://www.district.in/movies/agra-movie-tickets-in-delhi-ncr-MV209402",
+        "status": "NOW_SHOWING",
+        "city": "Delhi-NCR",
+        "language": "Unknown",
+        "format": "2D"
+      },
+      {
+        "title": "Wicked: For Good",
+        "url": "https://www.district.in/movies/wicked-for-good-movie-tickets-in-delhi-ncr-MV176543",
+        "status": "NOW_SHOWING",
+        "city": "Delhi-NCR",
+        "language": "Unknown",
+        "format": "2D"
+      },
+      {
+        "title": "Tron: Ares",
+        "url": "https://www.district.in/movies/tron-ares-movie-tickets-in-delhi-ncr-MV178225",
+        "status": "NOW_SHOWING",
+        "city": "Delhi-NCR",
+        "language": "Unknown",
+        "format": "2D"
+      },
+      {
+        "title": "Om Shanti Om (2007)",
+        "url": "https://www.district.in/movies/om-shanti-om-2007-movie-tickets-in-delhi-ncr-MV157817",
+        "status": "NOW_SHOWING",
+        "city": "Delhi-NCR",
+        "language": "Unknown",
+        "format": "2D"
+      },
+      {
+        "title": "Sisu (2023)",
+        "url": "https://www.district.in/movies/sisu-2023-movie-tickets-in-delhi-ncr-MV161346",
+        "status": "NOW_SHOWING",
+        "city": "Delhi-NCR",
+        "language": "Unknown",
+        "format": "2D"
       }
     ],
-    "theatres": [
-      {
-        "TheatreName": "Unknown Theatre (Scraped)",
-        "TheatreCode": "unknowntheatrescraped",
-        "City": "Delhi-NCR"
-      }
-    ],
+    "theatres": [],
     "filters": {
-      "Languages": [],
-      "Formats": []
+      "formats": [
+        "2D"
+      ],
+      "languages": []
     }
   },
   "Kochi": {
     "movies": [],
     "theatres": [],
     "filters": {
-      "Languages": [],
-      "Formats": []
+      "formats": [],
+      "languages": []
     }
   },
   "Pune": {
     "movies": [
       {
-        "Title": "Book Om Shanti Om (2007)",
-        "EventCode": "om-shanti-om-2007-movie-tickets-in-pune-MV157817",
-        "City": "Pune",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Om Shanti Om (2007)",
+        "url": "https://www.district.in/movies/om-shanti-om-2007-movie-tickets-in-pune-MV157817",
+        "status": "NOW_SHOWING",
+        "city": "Pune",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book 120 Bahadur",
-        "EventCode": "120-bahadur-movie-tickets-in-pune-MV177733",
-        "City": "Pune",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "120 Bahadur",
+        "url": "https://www.district.in/movies/120-bahadur-movie-tickets-in-pune-MV177733",
+        "status": "NOW_SHOWING",
+        "city": "Pune",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book F1 The Movie",
-        "EventCode": "f1-the-movie-movie-tickets-in-pune-MV175956",
-        "City": "Pune",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "F1 The Movie",
+        "url": "https://www.district.in/movies/f1-the-movie-movie-tickets-in-pune-MV175956",
+        "status": "NOW_SHOWING",
+        "city": "Pune",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Devdas (2002)",
-        "EventCode": "devdas-2002-movie-tickets-in-pune-MV158305",
-        "City": "Pune",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Devdas (2002)",
+        "url": "https://www.district.in/movies/devdas-2002-movie-tickets-in-pune-MV158305",
+        "status": "NOW_SHOWING",
+        "city": "Pune",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Kantara: A Legend Chapter-1",
-        "EventCode": "kantara-a-legend-chapter-1-movie-tickets-in-pune-MV165830",
-        "City": "Pune",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Kantara: A Legend Chapter-1",
+        "url": "https://www.district.in/movies/kantara-a-legend-chapter-1-movie-tickets-in-pune-MV165830",
+        "status": "NOW_SHOWING",
+        "city": "Pune",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book De De Pyaar De 2",
-        "EventCode": "de-de-pyaar-de-2-movie-tickets-in-pune-MV171264",
-        "City": "Pune",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "De De Pyaar De 2",
+        "url": "https://www.district.in/movies/de-de-pyaar-de-2-movie-tickets-in-pune-MV171264",
+        "status": "NOW_SHOWING",
+        "city": "Pune",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Thamma",
-        "EventCode": "thamma-movie-tickets-in-pune-MV181726",
-        "City": "Pune",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Thamma",
+        "url": "https://www.district.in/movies/thamma-movie-tickets-in-pune-MV181726",
+        "status": "NOW_SHOWING",
+        "city": "Pune",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Wicked: For Good",
-        "EventCode": "wicked-for-good-movie-tickets-in-pune-MV176543",
-        "City": "Pune",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Wicked: For Good",
+        "url": "https://www.district.in/movies/wicked-for-good-movie-tickets-in-pune-MV176543",
+        "status": "NOW_SHOWING",
+        "city": "Pune",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Tere Ishk Mein",
-        "EventCode": "tere-ishk-mein-movie-tickets-in-pune-MV163774",
-        "City": "Pune",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Tere Ishk Mein",
+        "url": "https://www.district.in/movies/tere-ishk-mein-movie-tickets-in-pune-MV163774",
+        "status": "NOW_SHOWING",
+        "city": "Pune",
+        "language": "Unknown",
+        "format": "2D"
       },
       {
-        "Title": "Book Mastiii 4",
-        "EventCode": "mastiii-4-movie-tickets-in-pune-MV170761",
-        "City": "Pune",
-        "Language": "Unknown",
-        "Format": "2D"
+        "title": "Mastiii 4",
+        "url": "https://www.district.in/movies/mastiii-4-movie-tickets-in-pune-MV170761",
+        "status": "NOW_SHOWING",
+        "city": "Pune",
+        "language": "Unknown",
+        "format": "2D"
       }
     ],
-    "theatres": [
-      {
-        "TheatreName": "Unknown Theatre (Scraped)",
-        "TheatreCode": "unknowntheatrescraped",
-        "City": "Pune"
-      }
-    ],
+    "theatres": [],
     "filters": {
-      "Languages": [],
-      "Formats": []
+      "formats": [
+        "2D"
+      ],
+      "languages": []
     }
   },
   "Kolkata": {
     "movies": [],
     "theatres": [],
     "filters": {
-      "Languages": [],
-      "Formats": []
+      "formats": [],
+      "languages": []
     }
   }
 }
