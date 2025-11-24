@@ -2,415 +2,110 @@
   "Chennai": {
     "movies": [
       {
-        "title": "Mastiii 4AHindiMastiii 4",
-        "url": "https://in.bookmyshow.com/movies/chennai/mastiii-4/ET00464040",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Mask (2025)UA16+TamilMask (2025)",
-        "url": "https://in.bookmyshow.com/movies/chennai/mask-2025/ET00470630",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Middle ClassUTamilMiddle Class",
-        "url": "https://in.bookmyshow.com/movies/chennai/middle-class/ET00470819",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "KaanthaUA13+Tamil, TeluguKaantha",
-        "url": "https://in.bookmyshow.com/movies/chennai/kaantha/ET00432079",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Sisu: Road to RevengeAEnglish, Telugu, Tamil, HindiSisu: Road to Revenge",
-        "url": "https://in.bookmyshow.com/movies/chennai/sisu-road-to-revenge/ET00448820",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Aan Paavam PollathathuUA13+TamilAan Paavam Pollathathu",
-        "url": "https://in.bookmyshow.com/movies/chennai/aan-paavam-pollathathu/ET00468153",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Theeyavar Kulai NadungaUA16+TamilTheeyavar Kulai Nadunga",
-        "url": "https://in.bookmyshow.com/movies/chennai/theeyavar-kulai-nadunga/ET00470554",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "AaromaleyUA13+TamilAaromaley",
-        "url": "https://in.bookmyshow.com/movies/chennai/aaromaley/ET00468371",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Yellow (2025)UA13+TamilYellow (2025)",
-        "url": "https://in.bookmyshow.com/movies/chennai/yellow-2025/ET00470043",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The Face of the FacelessUA16+Telugu, TamilThe Face of the Faceless",
-        "url": "https://in.bookmyshow.com/movies/chennai/the-face-of-the-faceless/ET00470608",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Predator: BadlandsUA16+English, Hindi, Tamil, TeluguPredator: Badlands",
-        "url": "https://in.bookmyshow.com/movies/chennai/predator-badlands/ET00443704",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "NaangalUA13+TamilNaangal",
-        "url": "https://in.bookmyshow.com/movies/chennai/naangal/ET00442117",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Bison KaalamaadanUA16+Tamil, TeluguBison Kaalamaadan",
-        "url": "https://in.bookmyshow.com/movies/chennai/bison-kaalamaadan/ET00462034",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Baahubali: The EpicUA16+Telugu, Hindi, Tamil, Malayalam, KannadaBaahubali: The Epic",
-        "url": "https://in.bookmyshow.com/movies/chennai/baahubali-the-epic/ET00453094",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "PoongaTamilPoonga",
-        "url": "https://in.bookmyshow.com/movies/chennai/poonga/ET00472021",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "DudeUA16+Tamil, TeluguDude",
-        "url": "https://in.bookmyshow.com/movies/chennai/dude/ET00445596",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The Amazing Spider-Man 2",
-        "url": "https://in.bookmyshow.com/movies/the-amazing-spiderman-2-3d/ET00009468",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The Amazing Spider-Man",
-        "url": "https://in.bookmyshow.com/movies/the-amazing-spiderman/ET00007442",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Mask (2025)",
-        "url": "https://in.bookmyshow.com/movies/mask-2025/ET00470630",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Middle Class",
-        "url": "https://in.bookmyshow.com/movies/middle-class/ET00470819",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Kaantha",
-        "url": "https://in.bookmyshow.com/movies/kaantha/ET00432079",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Sisu: Road to Revenge",
-        "url": "https://in.bookmyshow.com/movies/sisu-road-to-revenge-tamil/ET00465651",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Aan Paavam Pollathathu",
-        "url": "https://in.bookmyshow.com/movies/aan-paavam-pollathathu/ET00468153",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Theeyavar Kulai Nadunga",
-        "url": "https://in.bookmyshow.com/movies/theeyavar-kulai-nadunga/ET00470554",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Friends (Tamil)",
-        "url": "https://in.bookmyshow.com/movies/friends-tamil/ET00470952",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Eko",
-        "url": "https://in.bookmyshow.com/movies/eko/ET00470809",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Mastiii 4",
-        "url": "https://in.bookmyshow.com/movies/mastiii-4/ET00464040",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Wicked: For Good",
-        "url": "https://in.bookmyshow.com/movies/wicked-for-good-3d/ET00471497",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Andhra King Taluka",
-        "url": "https://in.bookmyshow.com/movies/andhra-king-taluka/ET00446228",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Kalamkaval",
-        "url": "https://in.bookmyshow.com/movies/kalamkaval/ET00468439",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Bank of Bhagyalakshmi",
-        "url": "https://in.bookmyshow.com/movies/bank-of-bhagyalakshmi/ET00465417",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Eternity",
-        "url": "https://in.bookmyshow.com/movies/eternity/ET00460545",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Gustaakh Ishq",
-        "url": "https://in.bookmyshow.com/movies/gustaakh-ishq/ET00459660",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Sarangi",
-        "url": "https://in.bookmyshow.com/movies/sarangi/ET00472072",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "School Life",
-        "url": "https://in.bookmyshow.com/movies/school-life/ET00466172",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Bicchugatthiya Bantana Ballirena",
-        "url": "https://in.bookmyshow.com/movies/bicchugatthiya-bantana-ballirena/ET00471212",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "BP 180",
-        "url": "https://in.bookmyshow.com/movies/bp-180/ET00470264",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Gangs of Raipur",
-        "url": "https://in.bookmyshow.com/movies/gangs-of-raipur/ET00471125",
-        "city": "Chennai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Avatar: Fire and AshAction/Adventure/Fantasy/Sci-Fi 1.2m likesAvatar: Fire and Ash",
-        "url": "https://in.bookmyshow.com/movies/chennai/avatar-fire-and-ash/ET00407893",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Tere Ishk MeinDrama/Romantic 123.0k likesTere Ishk Mein",
-        "url": "https://in.bookmyshow.com/movies/chennai/tere-ishk-mein/ET00362760",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Andhra King TalukaAction/Comedy/Drama/Romantic 63.4k likesAndhra King Taluka",
-        "url": "https://in.bookmyshow.com/movies/chennai/andhra-king-taluka/ET00446228",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Zootopia 2Adventure/Animation/Comedy 62.2k likesZootopia 2",
-        "url": "https://in.bookmyshow.com/movies/chennai/zootopia-2/ET00441877",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Toxic: A Fairy Tale for Grown-upsAction/Thriller 238.9k likesToxic: A Fairy Tale for Grown-ups",
-        "url": "https://in.bookmyshow.com/movies/chennai/toxic-a-fairy-tale-for-grownups/ET00378770",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Akhanda 2: ThaandavamAction/Drama 53.7k likesAkhanda 2: Thaandavam",
-        "url": "https://in.bookmyshow.com/movies/chennai/akhanda-2-thaandavam/ET00416621",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "DhurandharAction/Thriller 59.0k likesDhurandhar",
-        "url": "https://in.bookmyshow.com/movies/chennai/dhurandhar/ET00452447",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The Raja SaabComedy/Horror/Romantic 209.0k likesThe Raja Saab",
-        "url": "https://in.bookmyshow.com/movies/chennai/the-raja-saab/ET00383697",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The DevilAction/Drama/Thriller 80.8k likesThe Devil",
-        "url": "https://in.bookmyshow.com/movies/chennai/the-devil/ET00387652",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Jana NayaganAction/Drama/Political 102.2k likesJana Nayagan",
-        "url": "https://in.bookmyshow.com/movies/chennai/jana-nayagan/ET00430817",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Tu Meri Main Tera Main Tera Tu MeriComedy/Romantic 102.3k likesTu Meri Main Tera Main Tera Tu Meri",
-        "url": "https://in.bookmyshow.com/movies/chennai/tu-meri-main-tera-main-tera-tu-meri/ET00426670",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "ParasakthiAction/Drama/Political 103.8k likesParasakthi",
-        "url": "https://in.bookmyshow.com/movies/chennai/parasakthi/ET00431398",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "PeddiAction/Thriller 92.1k likesPeddi",
-        "url": "https://in.bookmyshow.com/movies/chennai/peddi/ET00439772",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Me No Pause Me PlayDrama/Social 20.3k likesMe No Pause Me Play",
-        "url": "https://in.bookmyshow.com/movies/chennai/me-no-pause-me-play/ET00468105",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "BikerAction/Drama/Romantic/Sports 24.9k likesBiker",
-        "url": "https://in.bookmyshow.com/movies/chennai/biker/ET00469257",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "MarkAction/Thriller 72.4k likesMark",
-        "url": "https://in.bookmyshow.com/movies/chennai/mark/ET00460662",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The Amazing Spider-Man 2",
-        "url": "https://in.bookmyshow.com/movies/the-amazing-spiderman-2-3d/ET00009468",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The Amazing Spider-Man",
-        "url": "https://in.bookmyshow.com/movies/the-amazing-spiderman/ET00007442",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Sisu: Road to Revenge",
-        "url": "https://in.bookmyshow.com/movies/sisu-road-to-revenge-tamil/ET00465651",
-        "city": "Chennai",
-        "status": "COMING_SOON"
-      }
-    ],
-    "theatres": [
-      {
-        "name": "INOX: Chennai Citi Centre, Dr. RK Salai",
-        "url": "https://in.bookmyshow.com/cinemas/chennai/inox-chennai-citi-centre-dr-rk-salai/INCH",
+        "title": "Mastiii 4Mastiii 4",
+        "url": "https://in.bookmyshow.com/movies/chennai/ET00464040",
+        "status": "NOW_SHOWING",
         "city": "Chennai"
       },
       {
-        "name": "Sri Devi Karumari Cinemas RGB LASER DOLBY ATMOS",
-        "url": "https://in.bookmyshow.com/cinemas/chennai/sri-devi-karumari-cinemas-rgb-laser-dolby-atmos/GKKC",
+        "title": "Sisu: Road to RevengeSisu: Road to Revenge",
+        "url": "https://in.bookmyshow.com/movies/chennai/ET00448820",
+        "status": "NOW_SHOWING",
         "city": "Chennai"
       },
       {
-        "name": "INOX: LUXE Phoenix Market City, Velachery",
-        "url": "https://in.bookmyshow.com/cinemas/chennai/inox-luxe-phoenix-market-city-velachery/INPR",
+        "title": "Wicked: For GoodWicked: For Good",
+        "url": "https://in.bookmyshow.com/movies/chennai/ET00458691",
+        "status": "NOW_SHOWING",
         "city": "Chennai"
       },
       {
-        "name": "GK Cinemas RGB + Laser SRL 4D: Porur",
-        "url": "https://in.bookmyshow.com/cinemas/chennai/gk-cinemas-rgb-laser-srl-4d-porur/GKCP",
+        "title": "EkoEko",
+        "url": "https://in.bookmyshow.com/movies/chennai/ET00470809",
+        "status": "NOW_SHOWING",
         "city": "Chennai"
       },
       {
-        "name": "Sri Hari Theatre: Pattabiram",
-        "url": "https://in.bookmyshow.com/cinemas/chennai/sri-hari-theatre-pattabiram/HRSR",
+        "title": "Friends (Tamil)Friends (Tamil)",
+        "url": "https://in.bookmyshow.com/movies/chennai/ET00470952",
+        "status": "NOW_SHOWING",
         "city": "Chennai"
       },
       {
-        "name": "Janatha Theatre 4K AC DTS (JBL AUDIO): Pallavaram",
-        "url": "https://in.bookmyshow.com/cinemas/chennai/janatha-theatre-4k-ac-dts-jbl-audio-pallavaram/JTPL",
+        "title": "Mask (2025)Mask (2025)",
+        "url": "https://in.bookmyshow.com/movies/chennai/ET00470630",
+        "status": "NOW_SHOWING",
         "city": "Chennai"
       },
       {
-        "name": "Jothi Theatre 4K A/c DTS: ST Thomas Mount",
-        "url": "https://in.bookmyshow.com/cinemas/chennai/jothi-theatre-4k-ac-dts-st-thomas-mount/JOTG",
+        "title": "The Amazing Spider-Man 2 The Amazing Spider-Man 2",
+        "url": "https://in.bookmyshow.com/movies/chennai/ET00027548",
+        "status": "NOW_SHOWING",
         "city": "Chennai"
       },
       {
-        "name": "KC(KrishnaveniCinemas) RG3 LASER DOLBYATMOS TNAGAR",
-        "url": "https://in.bookmyshow.com/cinemas/chennai/kckrishnavenicinemas-rg3-laser-dolbyatmos-tnagar/KVCS",
+        "title": "The Amazing Spider-Man The Amazing Spider-Man",
+        "url": "https://in.bookmyshow.com/movies/chennai/ET00007442",
+        "status": "NOW_SHOWING",
         "city": "Chennai"
       },
       {
-        "name": "VVM Cinemas 3D 2K AC Dts, Ponneri: Chennai",
-        "url": "https://in.bookmyshow.com/cinemas/chennai/vvm-cinemas-3d-2k-ac-dts-ponneri-chennai/JTMV",
+        "title": "Avatar: Fire and AshAction/Adventure/Fantasy/Sci-FiAvatar: Fire and Ash",
+        "url": "https://in.bookmyshow.com/movies/chennai/ET00407893",
+        "status": "NOW_SHOWING",
         "city": "Chennai"
       },
       {
-        "name": "INOX: The Marina Mall, OMR",
-        "url": "https://in.bookmyshow.com/cinemas/chennai/inox-the-marina-mall-omr/INTO",
+        "title": "Tere Ishk MeinDrama/RomanticTere Ishk Mein",
+        "url": "https://in.bookmyshow.com/movies/chennai/ET00362760",
+        "status": "NOW_SHOWING",
+        "city": "Chennai"
+      },
+      {
+        "title": "Andhra King TalukaAction/Comedy/Drama/RomanticAndhra King Taluka",
+        "url": "https://in.bookmyshow.com/movies/chennai/ET00446228",
+        "status": "NOW_SHOWING",
+        "city": "Chennai"
+      },
+      {
+        "title": "Zootopia 2Adventure/Animation/ComedyZootopia 2",
+        "url": "https://in.bookmyshow.com/movies/chennai/ET00441877",
+        "status": "NOW_SHOWING",
+        "city": "Chennai"
+      },
+      {
+        "title": "Toxic: A Fairy Tale for Grown-upsAction/ThrillerToxic: A Fairy Tale for Grown-ups",
+        "url": "https://in.bookmyshow.com/movies/chennai/ET00378770",
+        "status": "NOW_SHOWING",
+        "city": "Chennai"
+      },
+      {
+        "title": "Akhanda 2: ThaandavamAction/DramaAkhanda 2: Thaandavam",
+        "url": "https://in.bookmyshow.com/movies/chennai/ET00416621",
+        "status": "NOW_SHOWING",
+        "city": "Chennai"
+      },
+      {
+        "title": "DhurandharAction/ThrillerDhurandhar",
+        "url": "https://in.bookmyshow.com/movies/chennai/ET00452447",
+        "status": "NOW_SHOWING",
+        "city": "Chennai"
+      },
+      {
+        "title": "The Raja SaabComedy/Horror/RomanticThe Raja Saab",
+        "url": "https://in.bookmyshow.com/movies/chennai/ET00383697",
+        "status": "NOW_SHOWING",
         "city": "Chennai"
       }
     ],
+    "theatres": [],
     "filters": {
       "formats": [
-        "2D",
-        "3D",
-        "4DX",
-        "ICE",
-        "IMAX",
-        "MX4D",
-        "ScreenX"
+        "2D"
       ],
       "languages": [
         "English",
         "Hindi",
-        "Kannada",
-        "Malayalam",
         "Tamil",
         "Telugu"
       ]
@@ -419,409 +114,110 @@
   "Bengaluru": {
     "movies": [
       {
-        "title": "Mastiii 4AHindiMastiii 4",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/mastiii-4/ET00464040",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "MaaruthaUA16+KannadaMaarutha",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/maarutha/ET00465845",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "RadheyaaUA16+KannadaRadheyaa",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/radheyaa/ET00469134",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Congratulations BrotherUA16+KannadaCongratulations Brother",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/congratulations-brother/ET00458034",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Full MealsUA13+KannadaFull Meals",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/full-meals/ET00456333",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The TaskUA16+KannadaThe Task",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/the-task/ET00470303",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "BratUA16+KannadaBrat",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/brat/ET00463090",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Kantara: A Legend Chapter-1UA16+Kannada, Telugu, Hindi, Tamil, Malayalam, EnglishKantara: A Legend Chapter-1",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/kantara-a-legend-chapter1/ET00377351",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Gatha VaibhavaUA16+KannadaGatha Vaibhava",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/gatha-vaibhava/ET00437042",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Love OTPUA16+Kannada, TeluguLove OTP",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/love-otp/ET00467984",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "UdaalaUA16+KannadaUdaala",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/udaala/ET00469786",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Love You MudduUA16+KannadaLove You Muddu",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/love-you-muddu/ET00467954",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "GidugaUA13+KannadaGiduga",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/giduga/ET00431626",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "EkoUA16+MalayalamEko",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/eko/ET00470809",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The GirlfriendUA13+Telugu, Hindi, Tamil, Kannada, MalayalamThe Girlfriend",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/the-girlfriend/ET00423419",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Friends (Tamil)UTamilFriends (Tamil)",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/friends-tamil/ET00470952",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The Girlfriend",
-        "url": "https://in.bookmyshow.com/movies/the-girlfriend/ET00423419",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Kantara: A Legend Chapter-1",
-        "url": "https://in.bookmyshow.com/movies/kantara-a-legend-chapter1/ET00377351",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "120 Bahadur",
-        "url": "https://in.bookmyshow.com/movies/120-bahadur/ET00410659",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Maarutha",
-        "url": "https://in.bookmyshow.com/movies/maarutha/ET00465845",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Mastiii 4",
-        "url": "https://in.bookmyshow.com/movies/mastiii-4/ET00464040",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "De De Pyaar De 2",
-        "url": "https://in.bookmyshow.com/movies/de-de-pyaar-de-2/ET00391156",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Wicked: For Good",
-        "url": "https://in.bookmyshow.com/movies/wicked-for-good-3d/ET00471497",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Eko",
-        "url": "https://in.bookmyshow.com/movies/eko/ET00470809",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Sisu: Road to Revenge",
-        "url": "https://in.bookmyshow.com/movies/sisu-road-to-revenge/ET00448820",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Mask (2025)",
-        "url": "https://in.bookmyshow.com/movies/mask-2025/ET00470630",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Radheyaa",
-        "url": "https://in.bookmyshow.com/movies/radheyaa/ET00469134",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Andhra King Taluka",
-        "url": "https://in.bookmyshow.com/movies/andhra-king-taluka/ET00446228",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Kalamkaval",
-        "url": "https://in.bookmyshow.com/movies/kalamkaval/ET00468439",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Bank of Bhagyalakshmi",
-        "url": "https://in.bookmyshow.com/movies/bank-of-bhagyalakshmi/ET00465417",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Tantra (2025)",
-        "url": "https://in.bookmyshow.com/movies/tantra-2025/ET00470001",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Sarangi",
-        "url": "https://in.bookmyshow.com/movies/sarangi/ET00472072",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "School Life",
-        "url": "https://in.bookmyshow.com/movies/school-life/ET00466172",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Acharya Sri Shankara",
-        "url": "https://in.bookmyshow.com/movies/acharya-sri-shankara/ET00471511",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Paatashaala",
-        "url": "https://in.bookmyshow.com/movies/paatashaala/ET00469230",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Andhaka",
-        "url": "https://in.bookmyshow.com/movies/andhaka/ET00470673",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Revolver Rita",
-        "url": "https://in.bookmyshow.com/movies/revolver-rita/ET00471947",
-        "city": "Bengaluru",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Avatar: Fire and AshAction/Adventure/Fantasy/Sci-Fi 1.2m likesAvatar: Fire and Ash",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/avatar-fire-and-ash/ET00407893",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Andhra King TalukaAction/Comedy/Drama/Romantic 63.4k likesAndhra King Taluka",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/andhra-king-taluka/ET00446228",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Zootopia 2Adventure/Animation/Comedy 62.2k likesZootopia 2",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/zootopia-2/ET00441877",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Toxic: A Fairy Tale for Grown-upsAction/Thriller 238.9k likesToxic: A Fairy Tale for Grown-ups",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/toxic-a-fairy-tale-for-grownups/ET00378770",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Akhanda 2: ThaandavamAction/Drama 53.7k likesAkhanda 2: Thaandavam",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/akhanda-2-thaandavam/ET00416621",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "DhurandharAction/Thriller 59.0k likesDhurandhar",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/dhurandhar/ET00452447",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The Raja SaabComedy/Horror/Romantic 209.0k likesThe Raja Saab",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/the-raja-saab/ET00383697",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The DevilAction/Drama/Thriller 80.8k likesThe Devil",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/the-devil/ET00387652",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Jana NayaganAction/Drama/Political 102.2k likesJana Nayagan",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/jana-nayagan/ET00430817",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Tu Meri Main Tera Main Tera Tu MeriComedy/Romantic 102.3k likesTu Meri Main Tera Main Tera Tu Meri",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/tu-meri-main-tera-main-tera-tu-meri/ET00426670",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "ParasakthiAction/Drama/Political 103.8k likesParasakthi",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/parasakthi/ET00431398",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "PeddiAction/Thriller 92.1k likesPeddi",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/peddi/ET00439772",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Me No Pause Me PlayDrama/Social 20.3k likesMe No Pause Me Play",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/me-no-pause-me-play/ET00468105",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "BikerAction/Drama/Romantic/Sports 24.9k likesBiker",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/biker/ET00469257",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "MarkAction/Thriller 72.4k likesMark",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/mark/ET00460662",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Not All Movies Are The Same: DualHorror/Mystery/Sci-Fi/Thriller 15.7k likesNot All Movies Are The Same: Dual",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/not-all-movies-are-the-same-dual/ET00462838",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The Girlfriend",
-        "url": "https://in.bookmyshow.com/movies/the-girlfriend/ET00423419",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Kantara: A Legend Chapter-1",
-        "url": "https://in.bookmyshow.com/movies/kantara-a-legend-chapter1/ET00377351",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "120 Bahadur",
-        "url": "https://in.bookmyshow.com/movies/120-bahadur/ET00410659",
-        "city": "Bengaluru",
-        "status": "COMING_SOON"
-      }
-    ],
-    "theatres": [
-      {
-        "name": "PVR: Bhartiya Mall of Bengaluru",
-        "url": "https://in.bookmyshow.com/cinemas/bengaluru/pvr-bhartiya-mall-of-bengaluru/PBMM",
+        "title": "Mastiii 4Mastiii 4",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00464040",
+        "status": "NOW_SHOWING",
         "city": "Bengaluru"
       },
       {
-        "name": "PVR: Global Mall, Mysore Road, Bengaluru",
-        "url": "https://in.bookmyshow.com/cinemas/bengaluru/pvr-global-mall-mysore-road-bengaluru/PGFD",
+        "title": "120 Bahadur120 Bahadur",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00410659",
+        "status": "NOW_SHOWING",
         "city": "Bengaluru"
       },
       {
-        "name": "PVR: Directors Cut, Forum Rex Walk Bengaluru",
-        "url": "https://in.bookmyshow.com/cinemas/bengaluru/pvr-directors-cut-forum-rex-walk-bengaluru/PDWR",
+        "title": "De De Pyaar De 2De De Pyaar De 2",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00391156",
+        "status": "NOW_SHOWING",
         "city": "Bengaluru"
       },
       {
-        "name": "Pushpanjali Sultanpalya: A/C Digital 2K 3D Dolby",
-        "url": "https://in.bookmyshow.com/cinemas/bengaluru/pushpanjali-sultanpalya-ac-digital-2k-3d-dolby/PDYA",
+        "title": "Wicked: For GoodWicked: For Good",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00458691",
+        "status": "NOW_SHOWING",
         "city": "Bengaluru"
       },
       {
-        "name": "Prasanna Digital 4K Cinema: Magadi Road",
-        "url": "https://in.bookmyshow.com/cinemas/bengaluru/prasanna-digital-4k-cinema-magadi-road/PDRD",
+        "title": "Sisu: Road to RevengeSisu: Road to Revenge",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00448820",
+        "status": "NOW_SHOWING",
         "city": "Bengaluru"
       },
       {
-        "name": "PVR: GT World Mall, Magadi Road",
-        "url": "https://in.bookmyshow.com/cinemas/bengaluru/pvr-gt-world-mall-magadi-road/PGWB",
+        "title": "Tere Ishk MeinTere Ishk Mein",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00362760",
+        "status": "NOW_SHOWING",
         "city": "Bengaluru"
       },
       {
-        "name": "PVR: MSR Elements Mall, Tanisandhra Main Road",
-        "url": "https://in.bookmyshow.com/cinemas/bengaluru/pvr-msr-elements-mall-tanisandhra-main-road/PMSR",
+        "title": "The GirlfriendThe Girlfriend",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00423419",
+        "status": "NOW_SHOWING",
         "city": "Bengaluru"
       },
       {
-        "name": "Pushpanjali B N Pura: A/C 2K Dolby 7.1",
-        "url": "https://in.bookmyshow.com/cinemas/bengaluru/pushpanjali-b-n-pura-ac-2k-dolby-71/PTBK",
+        "title": "Now You See Me: Now You Don'tNow You See Me: Now You Don't",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00444056",
+        "status": "NOW_SHOWING",
         "city": "Bengaluru"
       },
       {
-        "name": "PVR: Vega City, Bannerghatta Road",
-        "url": "https://in.bookmyshow.com/cinemas/bengaluru/pvr-vega-city-bannerghatta-road/PVER",
+        "title": "Avatar: Fire and AshAction/Adventure/Fantasy/Sci-FiAvatar: Fire and Ash",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00407893",
+        "status": "NOW_SHOWING",
         "city": "Bengaluru"
       },
       {
-        "name": "PVR: VR Bengaluru, Whitefield Road",
-        "url": "https://in.bookmyshow.com/cinemas/bengaluru/pvr-vr-bengaluru-whitefield-road/PVWW",
+        "title": "Andhra King TalukaAction/Comedy/Drama/RomanticAndhra King Taluka",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00446228",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "Zootopia 2Adventure/Animation/ComedyZootopia 2",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00441877",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "Toxic: A Fairy Tale for Grown-upsAction/ThrillerToxic: A Fairy Tale for Grown-ups",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00378770",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "Akhanda 2: ThaandavamAction/DramaAkhanda 2: Thaandavam",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00416621",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "DhurandharAction/ThrillerDhurandhar",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00452447",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "The Raja SaabComedy/Horror/RomanticThe Raja Saab",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00383697",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "The DevilAction/Drama/ThrillerThe Devil",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00387652",
+        "status": "NOW_SHOWING",
         "city": "Bengaluru"
       }
     ],
+    "theatres": [],
     "filters": {
       "formats": [
-        "2D",
-        "3D",
-        "4DX",
-        "ICE",
-        "IMAX",
-        "MX4D",
-        "ScreenX"
+        "2D"
       ],
       "languages": [
         "English",
         "Hindi",
-        "Kannada",
-        "Malayalam",
         "Tamil",
         "Telugu"
       ]
@@ -830,409 +226,110 @@
   "Hyderabad": {
     "movies": [
       {
-        "title": "Mastiii 4AHindiMastiii 4",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/mastiii-4/ET00464040",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Raju Weds RambaiUA16+TeluguRaju Weds Rambai",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/raju-weds-rambai/ET00471442",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "12A Railway ColonyUA16+Telugu12A Railway Colony",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/12a-railway-colony/ET00438736",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "PremanteUA13+TeluguPremante",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/premante/ET00469262",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The GirlfriendUA13+Telugu, Hindi, Tamil, Kannada, MalayalamThe Girlfriend",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/the-girlfriend/ET00423419",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Sisu: Road to RevengeAEnglish, Telugu, Tamil, HindiSisu: Road to Revenge",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/sisu-road-to-revenge/ET00448820",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Paanch MinarUA13+TeluguPaanch Minar",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/paanch-minar/ET00470806",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The Face of the FacelessUA16+Telugu, TamilThe Face of the Faceless",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/the-face-of-the-faceless/ET00470608",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Mufti PoliceUA16+Telugu, Malayalam, KannadaMufti Police",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/mufti-police/ET00470953",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "KaanthaUA13+Tamil, TeluguKaantha",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/kaantha/ET00432079",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Itlu Me YedavaUA13+TeluguItlu Me Yedava",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/itlu-me-yedava/ET00471211",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Kalivi VanamUA 7+TeluguKalivi Vanam",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/kalivi-vanam/ET00469343",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Premalo RendosaariUA16+TeluguPremalo Rendosaari",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/premalo-rendosaari/ET00469253",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Baahubali: The EpicUA16+Telugu, Hindi, Tamil, Malayalam, KannadaBaahubali: The Epic",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/baahubali-the-epic/ET00453094",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Happy JourneyUA16+TeluguHappy Journey",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/happy-journey/ET00471124",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "JigrisUA16+TeluguJigris",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/jigris/ET00459712",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "120 Bahadur",
-        "url": "https://in.bookmyshow.com/movies/120-bahadur/ET00410659",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The Amazing Spider-Man 2",
-        "url": "https://in.bookmyshow.com/movies/the-amazing-spiderman-2/ET00027548",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Raju Weds Rambai",
-        "url": "https://in.bookmyshow.com/movies/raju-weds-rambai/ET00471442",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "12A Railway Colony",
-        "url": "https://in.bookmyshow.com/movies/12a-railway-colony/ET00438736",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Premante",
-        "url": "https://in.bookmyshow.com/movies/premante/ET00469262",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Mastiii 4",
-        "url": "https://in.bookmyshow.com/movies/mastiii-4/ET00464040",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The Girlfriend",
-        "url": "https://in.bookmyshow.com/movies/the-girlfriend/ET00423419",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Sisu: Road to Revenge",
-        "url": "https://in.bookmyshow.com/movies/sisu-road-to-revenge/ET00448820",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Wicked: For Good",
-        "url": "https://in.bookmyshow.com/movies/wicked-for-good-3d/ET00471497",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "De De Pyaar De 2",
-        "url": "https://in.bookmyshow.com/movies/de-de-pyaar-de-2/ET00391156",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Paanch Minar",
-        "url": "https://in.bookmyshow.com/movies/paanch-minar/ET00470806",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Andhra King Taluka",
-        "url": "https://in.bookmyshow.com/movies/andhra-king-taluka/ET00446228",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Bank of Bhagyalakshmi",
-        "url": "https://in.bookmyshow.com/movies/bank-of-bhagyalakshmi/ET00465417",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Kalamkaval",
-        "url": "https://in.bookmyshow.com/movies/kalamkaval/ET00468439",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Yamla",
-        "url": "https://in.bookmyshow.com/movies/yamla/ET00470801",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Danab",
-        "url": "https://in.bookmyshow.com/movies/danab/ET00411073",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Paatashaala",
-        "url": "https://in.bookmyshow.com/movies/paatashaala/ET00469230",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "BP 180",
-        "url": "https://in.bookmyshow.com/movies/bp-180/ET00470264",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Me No Pause Me Play",
-        "url": "https://in.bookmyshow.com/movies/me-no-pause-me-play/ET00468105",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Vellakuthira",
-        "url": "https://in.bookmyshow.com/movies/vellakuthira/ET00468314",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Hukkey",
-        "url": "https://in.bookmyshow.com/movies/hukkey/ET00470526",
-        "city": "Hyderabad",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Avatar: Fire and AshAction/Adventure/Fantasy/Sci-Fi 1.2m likesAvatar: Fire and Ash",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/avatar-fire-and-ash/ET00407893",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Tere Ishk MeinDrama/Romantic 123.0k likesTere Ishk Mein",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/tere-ishk-mein/ET00362760",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Andhra King TalukaAction/Comedy/Drama/Romantic 63.4k likesAndhra King Taluka",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/andhra-king-taluka/ET00446228",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Zootopia 2Adventure/Animation/Comedy 62.2k likesZootopia 2",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/zootopia-2/ET00441877",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Toxic: A Fairy Tale for Grown-upsAction/Thriller 238.9k likesToxic: A Fairy Tale for Grown-ups",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/toxic-a-fairy-tale-for-grownups/ET00378770",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Akhanda 2: ThaandavamAction/Drama 53.7k likesAkhanda 2: Thaandavam",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/akhanda-2-thaandavam/ET00416621",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "DhurandharAction/Thriller 59.0k likesDhurandhar",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/dhurandhar/ET00452447",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The Raja SaabComedy/Horror/Romantic 209.0k likesThe Raja Saab",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/the-raja-saab/ET00383697",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The DevilAction/Drama/Thriller 80.8k likesThe Devil",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/the-devil/ET00387652",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Jana NayaganAction/Drama/Political 102.2k likesJana Nayagan",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/jana-nayagan/ET00430817",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Tu Meri Main Tera Main Tera Tu MeriComedy/Romantic 102.3k likesTu Meri Main Tera Main Tera Tu Meri",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/tu-meri-main-tera-main-tera-tu-meri/ET00426670",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "ParasakthiAction/Drama/Political 103.8k likesParasakthi",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/parasakthi/ET00431398",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "PeddiAction/Thriller 92.1k likesPeddi",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/peddi/ET00439772",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Me No Pause Me PlayDrama/Social 20.3k likesMe No Pause Me Play",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/me-no-pause-me-play/ET00468105",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "BikerAction/Drama/Romantic/Sports 24.9k likesBiker",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/biker/ET00469257",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "MarkAction/Thriller 72.4k likesMark",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/mark/ET00460662",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "120 Bahadur",
-        "url": "https://in.bookmyshow.com/movies/120-bahadur/ET00410659",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The Amazing Spider-Man 2",
-        "url": "https://in.bookmyshow.com/movies/the-amazing-spiderman-2/ET00027548",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Kaal Trighori",
-        "url": "https://in.bookmyshow.com/movies/kaal-trighori/ET00467821",
-        "city": "Hyderabad",
-        "status": "COMING_SOON"
-      }
-    ],
-    "theatres": [
-      {
-        "name": "INOX: Maheshwari Parmeshwari Mall, Kachiguda",
-        "url": "https://in.bookmyshow.com/cinemas/hyderabad/inox-maheshwari-parmeshwari-mall-kachiguda/INMH",
+        "title": "Mastiii 4Mastiii 4",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00464040",
+        "status": "NOW_SHOWING",
         "city": "Hyderabad"
       },
       {
-        "name": "BR Hitech 70mm: Madhapur",
-        "url": "https://in.bookmyshow.com/cinemas/hyderabad/br-hitech-70mm-madhapur/HMHD",
+        "title": "120 Bahadur120 Bahadur",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00410659",
+        "status": "NOW_SHOWING",
         "city": "Hyderabad"
       },
       {
-        "name": "Cine Town Indra Nagendra: Karmanghat",
-        "url": "https://in.bookmyshow.com/cinemas/hyderabad/cine-town-indra-nagendra-karmanghat/INKM",
+        "title": "Sisu: Road to RevengeSisu: Road to Revenge",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00448820",
+        "status": "NOW_SHOWING",
         "city": "Hyderabad"
       },
       {
-        "name": "Ganesh 70MM: Shamshabad",
-        "url": "https://in.bookmyshow.com/cinemas/hyderabad/ganesh-70mm-shamshabad/GNHB",
+        "title": "De De Pyaar De 2De De Pyaar De 2",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00391156",
+        "status": "NOW_SHOWING",
         "city": "Hyderabad"
       },
       {
-        "name": "INOX: Prism Mall, Hyderabad",
-        "url": "https://in.bookmyshow.com/cinemas/hyderabad/inox-prism-mall-hyderabad/IPRS",
+        "title": "HaqHaq",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00464000",
+        "status": "NOW_SHOWING",
         "city": "Hyderabad"
       },
       {
-        "name": "GPR Multiplex: Nizampet, Hyderabad",
-        "url": "https://in.bookmyshow.com/cinemas/hyderabad/gpr-multiplex-nizampet-hyderabad/GPRH",
+        "title": "ThammaThamma",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00443268",
+        "status": "NOW_SHOWING",
         "city": "Hyderabad"
       },
       {
-        "name": "JP Cinemas: Chandanagar",
-        "url": "https://in.bookmyshow.com/cinemas/hyderabad/jp-cinemas-chandanagar/JJPP",
+        "title": "Predator: BadlandsPredator: Badlands",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00443704",
+        "status": "NOW_SHOWING",
         "city": "Hyderabad"
       },
       {
-        "name": "INOX GVK One, Banjara Hills: Hyderabad",
-        "url": "https://in.bookmyshow.com/cinemas/hyderabad/inox-gvk-one-banjara-hills-hyderabad/INHY",
+        "title": "The Taj StoryThe Taj Story",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00467657",
+        "status": "NOW_SHOWING",
         "city": "Hyderabad"
       },
       {
-        "name": "INOX: SMR Vinay Metro Mall, Hyderabad",
-        "url": "https://in.bookmyshow.com/cinemas/hyderabad/inox-smr-vinay-metro-mall-hyderabad/IVNM",
+        "title": "Avatar: Fire and AshAction/Adventure/Fantasy/Sci-FiAvatar: Fire and Ash",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00407893",
+        "status": "NOW_SHOWING",
         "city": "Hyderabad"
       },
       {
-        "name": "INOX: GSM Mall, Hyderabad",
-        "url": "https://in.bookmyshow.com/cinemas/hyderabad/inox-gsm-mall-hyderabad/IGMH",
+        "title": "Andhra King TalukaAction/Comedy/Drama/RomanticAndhra King Taluka",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00446228",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "Zootopia 2Adventure/Animation/ComedyZootopia 2",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00441877",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "Toxic: A Fairy Tale for Grown-upsAction/ThrillerToxic: A Fairy Tale for Grown-ups",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00378770",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "Akhanda 2: ThaandavamAction/DramaAkhanda 2: Thaandavam",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00416621",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "DhurandharAction/ThrillerDhurandhar",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00452447",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "The Raja SaabComedy/Horror/RomanticThe Raja Saab",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00383697",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "The DevilAction/Drama/ThrillerThe Devil",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00387652",
+        "status": "NOW_SHOWING",
         "city": "Hyderabad"
       }
     ],
+    "theatres": [],
     "filters": {
       "formats": [
-        "2D",
-        "3D",
-        "4DX",
-        "ICE",
-        "IMAX",
-        "MX4D",
-        "ScreenX"
+        "2D"
       ],
       "languages": [
         "English",
         "Hindi",
-        "Kannada",
-        "Malayalam",
         "Tamil",
         "Telugu"
       ]
@@ -1241,596 +338,128 @@
   "Mumbai": {
     "movies": [
       {
-        "title": "Mastiii 4AHindiMastiii 4",
-        "url": "https://in.bookmyshow.com/movies/mumbai/mastiii-4/ET00464040",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Wicked: For GoodUA16+EnglishWicked: For Good",
-        "url": "https://in.bookmyshow.com/movies/mumbai/wicked-for-good/ET00458691",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Sisu: Road to RevengeAEnglish, Telugu, Tamil, HindiSisu: Road to Revenge",
-        "url": "https://in.bookmyshow.com/movies/mumbai/sisu-road-to-revenge/ET00448820",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Laalo - Krishna Sada SahaayateUA13+GujaratiLaalo - Krishna Sada Sahaayate",
-        "url": "https://in.bookmyshow.com/movies/mumbai/laalo-krishna-sada-sahaayate/ET00459408",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "De De Pyaar De 2UA13+HindiDe De Pyaar De 2",
-        "url": "https://in.bookmyshow.com/movies/mumbai/de-de-pyaar-de-2/ET00391156",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Tere Ishk MeinHindi, TamilTere Ishk Mein",
-        "url": "https://in.bookmyshow.com/movies/mumbai/tere-ishk-mein/ET00362760",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Now You See Me: Now You Don'tUA16+EnglishNow You See Me: Now You Don't",
-        "url": "https://in.bookmyshow.com/movies/mumbai/now-you-see-me-now-you-dont/ET00444056",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "GondhalUA16+MarathiGondhal",
-        "url": "https://in.bookmyshow.com/movies/mumbai/gondhal/ET00465382",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "HaqUA13+HindiHaq",
-        "url": "https://in.bookmyshow.com/movies/mumbai/haq/ET00464000",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "120 BahadurUA13+Hindi120 Bahadur",
-        "url": "https://in.bookmyshow.com/movies/mumbai/120-bahadur/ET00410659",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The Amazing Spider-Man 2 UEnglish, Tamil, Hindi, TeluguThe Amazing Spider-Man 2",
-        "url": "https://in.bookmyshow.com/movies/mumbai/the-amazing-spiderman-2/ET00027548",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "AsambhavUA16+MarathiAsambhav",
-        "url": "https://in.bookmyshow.com/movies/mumbai/asambhav/ET00467711",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The Amazing Spider-Man UEnglish, Hindi, Tamil, TeluguThe Amazing Spider-Man",
-        "url": "https://in.bookmyshow.com/movies/mumbai/the-amazing-spiderman/ET00007442",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The Taj StoryUA13+HindiThe Taj Story",
-        "url": "https://in.bookmyshow.com/movies/mumbai/the-taj-story/ET00467657",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Kantara: A Legend Chapter-1UA16+Kannada, Telugu, Hindi, Tamil, Malayalam, EnglishKantara: A Legend Chapter-1",
-        "url": "https://in.bookmyshow.com/movies/mumbai/kantara-a-legend-chapter1/ET00377351",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "EkoUA16+MalayalamEko",
-        "url": "https://in.bookmyshow.com/movies/mumbai/eko/ET00470809",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "De De Pyaar De 2",
-        "url": "https://in.bookmyshow.com/movies/de-de-pyaar-de-2/ET00391156",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Tere Ishk Mein",
-        "url": "https://in.bookmyshow.com/movies/tere-ishk-mein/ET00362760",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "120 Bahadur",
-        "url": "https://in.bookmyshow.com/movies/120-bahadur/ET00410659",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Mastiii 4",
-        "url": "https://in.bookmyshow.com/movies/mastiii-4/ET00464040",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Laalo - Krishna Sada Sahaayate",
-        "url": "https://in.bookmyshow.com/movies/laalo-krishna-sada-sahaayate/ET00459408",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Wicked: For Good",
-        "url": "https://in.bookmyshow.com/movies/wicked-for-good-imax-3d/ET00471590",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Asambhav",
-        "url": "https://in.bookmyshow.com/movies/asambhav/ET00467711",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Now You See Me: Now You Don't",
-        "url": "https://in.bookmyshow.com/movies/now-you-see-me-now-you-dont/ET00444056",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Haq",
-        "url": "https://in.bookmyshow.com/movies/haq/ET00464000",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Sisu: Road to Revenge",
-        "url": "https://in.bookmyshow.com/movies/sisu-road-to-revenge/ET00448820",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Bank of Bhagyalakshmi",
-        "url": "https://in.bookmyshow.com/movies/bank-of-bhagyalakshmi/ET00465417",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Andhra King Taluka",
-        "url": "https://in.bookmyshow.com/movies/andhra-king-taluka/ET00446228",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Kalamkaval",
-        "url": "https://in.bookmyshow.com/movies/kalamkaval/ET00468439",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Deri Hoye Geche",
-        "url": "https://in.bookmyshow.com/movies/deri-hoye-geche/ET00469222",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Gangs of Raipur",
-        "url": "https://in.bookmyshow.com/movies/gangs-of-raipur/ET00471125",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Maruvatarama",
-        "url": "https://in.bookmyshow.com/movies/maruvatarama/ET00472165",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Eternity",
-        "url": "https://in.bookmyshow.com/movies/eternity/ET00460545",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Danab",
-        "url": "https://in.bookmyshow.com/movies/danab/ET00411073",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Flirt (Kannada)",
-        "url": "https://in.bookmyshow.com/movies/flirt-kannada/ET00467862",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "IPL: Indian Penal Law",
-        "url": "https://in.bookmyshow.com/movies/ipl-indian-penal-law/ET00471994",
-        "city": "Mumbai",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Avatar: Fire and AshAction/Adventure/Fantasy/Sci-Fi 1.2m likesAvatar: Fire and Ash",
-        "url": "https://in.bookmyshow.com/movies/mumbai/avatar-fire-and-ash/ET00407893",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Andhra King TalukaAction/Comedy/Drama/Romantic 63.4k likesAndhra King Taluka",
-        "url": "https://in.bookmyshow.com/movies/mumbai/andhra-king-taluka/ET00446228",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Zootopia 2Adventure/Animation/Comedy 62.2k likesZootopia 2",
-        "url": "https://in.bookmyshow.com/movies/mumbai/zootopia-2/ET00441877",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Toxic: A Fairy Tale for Grown-upsAction/Thriller 238.9k likesToxic: A Fairy Tale for Grown-ups",
-        "url": "https://in.bookmyshow.com/movies/mumbai/toxic-a-fairy-tale-for-grownups/ET00378770",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Akhanda 2: ThaandavamAction/Drama 53.7k likesAkhanda 2: Thaandavam",
-        "url": "https://in.bookmyshow.com/movies/mumbai/akhanda-2-thaandavam/ET00416621",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "DhurandharAction/Thriller 59.0k likesDhurandhar",
-        "url": "https://in.bookmyshow.com/movies/mumbai/dhurandhar/ET00452447",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The Raja SaabComedy/Horror/Romantic 209.0k likesThe Raja Saab",
-        "url": "https://in.bookmyshow.com/movies/mumbai/the-raja-saab/ET00383697",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The DevilAction/Drama/Thriller 80.8k likesThe Devil",
-        "url": "https://in.bookmyshow.com/movies/mumbai/the-devil/ET00387652",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Jana NayaganAction/Drama/Political 102.2k likesJana Nayagan",
-        "url": "https://in.bookmyshow.com/movies/mumbai/jana-nayagan/ET00430817",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Tu Meri Main Tera Main Tera Tu MeriComedy/Romantic 102.3k likesTu Meri Main Tera Main Tera Tu Meri",
-        "url": "https://in.bookmyshow.com/movies/mumbai/tu-meri-main-tera-main-tera-tu-meri/ET00426670",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "ParasakthiAction/Drama/Political 103.8k likesParasakthi",
-        "url": "https://in.bookmyshow.com/movies/mumbai/parasakthi/ET00431398",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "PeddiAction/Thriller 92.1k likesPeddi",
-        "url": "https://in.bookmyshow.com/movies/mumbai/peddi/ET00439772",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Me No Pause Me PlayDrama/Social 20.3k likesMe No Pause Me Play",
-        "url": "https://in.bookmyshow.com/movies/mumbai/me-no-pause-me-play/ET00468105",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "BikerAction/Drama/Romantic/Sports 24.9k likesBiker",
-        "url": "https://in.bookmyshow.com/movies/mumbai/biker/ET00469257",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "MarkAction/Thriller 72.4k likesMark",
-        "url": "https://in.bookmyshow.com/movies/mumbai/mark/ET00460662",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Not All Movies Are The Same: DualHorror/Mystery/Sci-Fi/Thriller 15.7k likesNot All Movies Are The Same: Dual",
-        "url": "https://in.bookmyshow.com/movies/mumbai/not-all-movies-are-the-same-dual/ET00462838",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "De De Pyaar De 2",
-        "url": "https://in.bookmyshow.com/movies/de-de-pyaar-de-2/ET00391156",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Tere Ishk Mein",
-        "url": "https://in.bookmyshow.com/movies/tere-ishk-mein/ET00362760",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Now You See Me: Now You Don't",
-        "url": "https://in.bookmyshow.com/movies/now-you-see-me-now-you-dont/ET00444056",
-        "city": "Mumbai",
-        "status": "COMING_SOON"
-      }
-    ],
-    "theatres": [
-      {
-        "name": "PVR ICON: Infiniti Andheri (W)",
-        "url": "https://in.bookmyshow.com/cinemas/mumbai/pvr-icon-infiniti-andheri-w/PRCW",
+        "title": "Mastiii 4Mastiii 4",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00464040",
+        "status": "NOW_SHOWING",
         "city": "Mumbai"
       },
       {
-        "name": "Maison PVR: Jio World Drive, Mumbai",
-        "url": "https://in.bookmyshow.com/cinemas/mumbai/maison-pvr-jio-world-drive-mumbai/PVWJ",
+        "title": "De De Pyaar De 2De De Pyaar De 2",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00391156",
+        "status": "NOW_SHOWING",
         "city": "Mumbai"
       },
       {
-        "name": "Plaza Cinema: Dadar",
-        "url": "https://in.bookmyshow.com/cinemas/mumbai/plaza-cinema-dadar/PZCD",
+        "title": "120 Bahadur120 Bahadur",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00410659",
+        "status": "NOW_SHOWING",
         "city": "Mumbai"
       },
       {
-        "name": "PVR: Lodha Xperia, Palava",
-        "url": "https://in.bookmyshow.com/cinemas/mumbai/pvr-lodha-xperia-palava/PLXP",
+        "title": "Tere Ishk MeinTere Ishk Mein",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00362760",
+        "status": "NOW_SHOWING",
         "city": "Mumbai"
       },
       {
-        "name": "PVR: Infiniti, Malad Mumbai",
-        "url": "https://in.bookmyshow.com/cinemas/mumbai/pvr-infiniti-malad-mumbai/PVMI",
+        "title": "Laalo - Krishna Sada SahaayateLaalo - Krishna Sada Sahaayate",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00459408",
+        "status": "NOW_SHOWING",
         "city": "Mumbai"
       },
       {
-        "name": "PVR:C&B Square Chakala Andheri E(Formerly Sangam)",
-        "url": "https://in.bookmyshow.com/cinemas/mumbai/pvrcb-square-chakala-andheri-eformerly-sangam/PVAE",
+        "title": "Wicked: For GoodWicked: For Good",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00458691",
+        "status": "NOW_SHOWING",
         "city": "Mumbai"
       },
       {
-        "name": "PVR: Lido, Juhu Mumbai",
-        "url": "https://in.bookmyshow.com/cinemas/mumbai/pvr-lido-juhu-mumbai/PLUS",
+        "title": "Now You See Me: Now You Don'tNow You See Me: Now You Don't",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00444056",
+        "status": "NOW_SHOWING",
         "city": "Mumbai"
       },
       {
-        "name": "PVR: Market City, Kurla (Premiere)",
-        "url": "https://in.bookmyshow.com/cinemas/mumbai/pvr-market-city-kurla-premiere/PMKM",
+        "title": "AsambhavAsambhav",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00467711",
+        "status": "NOW_SHOWING",
         "city": "Mumbai"
       },
       {
-        "name": "PVR: Odeon Mall, Ghatkopar",
-        "url": "https://in.bookmyshow.com/cinemas/mumbai/pvr-odeon-mall-ghatkopar/POLM",
+        "title": "Avatar: Fire and AshAction/Adventure/Fantasy/Sci-FiAvatar: Fire and Ash",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00407893",
+        "status": "NOW_SHOWING",
         "city": "Mumbai"
       },
       {
-        "name": "PVR: The Capital Mall, Nalasopara (E)",
-        "url": "https://in.bookmyshow.com/cinemas/mumbai/pvr-the-capital-mall-nalasopara-e/PCMM",
+        "title": "Andhra King TalukaAction/Comedy/Drama/RomanticAndhra King Taluka",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00446228",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Zootopia 2Adventure/Animation/ComedyZootopia 2",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00441877",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Toxic: A Fairy Tale for Grown-upsAction/ThrillerToxic: A Fairy Tale for Grown-ups",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00378770",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Akhanda 2: ThaandavamAction/DramaAkhanda 2: Thaandavam",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00416621",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "DhurandharAction/ThrillerDhurandhar",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00452447",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "The Raja SaabComedy/Horror/RomanticThe Raja Saab",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00383697",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "The DevilAction/Drama/ThrillerThe Devil",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00387652",
+        "status": "NOW_SHOWING",
         "city": "Mumbai"
       }
     ],
+    "theatres": [],
     "filters": {
       "formats": [
-        "2D",
-        "3D",
-        "4DX",
-        "ICE",
-        "IMAX",
-        "MX4D",
-        "ScreenX"
+        "2D"
       ],
       "languages": [
         "English",
         "Hindi",
-        "Kannada",
-        "Malayalam",
         "Tamil",
         "Telugu"
       ]
     }
   },
   "Delhi-NCR": {
-    "movies": [
-      {
-        "title": "Bank of Bhagyalakshmi",
-        "url": "https://in.bookmyshow.com/movies/bank-of-bhagyalakshmi/ET00465417",
-        "city": "Delhi-NCR",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Andhra King Taluka",
-        "url": "https://in.bookmyshow.com/movies/andhra-king-taluka/ET00446228",
-        "city": "Delhi-NCR",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Kalamkaval",
-        "url": "https://in.bookmyshow.com/movies/kalamkaval/ET00468439",
-        "city": "Delhi-NCR",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "After Operation London Cafe",
-        "url": "https://in.bookmyshow.com/movies/after-operation-london-cafe/ET00330566",
-        "city": "Delhi-NCR",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Flirt (Kannada)",
-        "url": "https://in.bookmyshow.com/movies/flirt-kannada/ET00467862",
-        "city": "Delhi-NCR",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Hukkey",
-        "url": "https://in.bookmyshow.com/movies/hukkey/ET00470526",
-        "city": "Delhi-NCR",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Bombay Positive",
-        "url": "https://in.bookmyshow.com/movies/bombay-positive/ET00460303",
-        "city": "Delhi-NCR",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Acharya Sri Shankara",
-        "url": "https://in.bookmyshow.com/movies/acharya-sri-shankara/ET00471511",
-        "city": "Delhi-NCR",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "BP 180",
-        "url": "https://in.bookmyshow.com/movies/bp-180/ET00470264",
-        "city": "Delhi-NCR",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "School Life",
-        "url": "https://in.bookmyshow.com/movies/school-life/ET00466172",
-        "city": "Delhi-NCR",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Bank of Bhagyalakshmi",
-        "url": "https://in.bookmyshow.com/movies/bank-of-bhagyalakshmi/ET00465417",
-        "city": "Delhi-NCR",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Andhra King Taluka",
-        "url": "https://in.bookmyshow.com/movies/andhra-king-taluka/ET00446228",
-        "city": "Delhi-NCR",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Kalamkaval",
-        "url": "https://in.bookmyshow.com/movies/kalamkaval/ET00468439",
-        "city": "Delhi-NCR",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "After Operation London Cafe",
-        "url": "https://in.bookmyshow.com/movies/after-operation-london-cafe/ET00330566",
-        "city": "Delhi-NCR",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Flirt (Kannada)",
-        "url": "https://in.bookmyshow.com/movies/flirt-kannada/ET00467862",
-        "city": "Delhi-NCR",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Hukkey",
-        "url": "https://in.bookmyshow.com/movies/hukkey/ET00470526",
-        "city": "Delhi-NCR",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Bombay Positive",
-        "url": "https://in.bookmyshow.com/movies/bombay-positive/ET00460303",
-        "city": "Delhi-NCR",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Acharya Sri Shankara",
-        "url": "https://in.bookmyshow.com/movies/acharya-sri-shankara/ET00471511",
-        "city": "Delhi-NCR",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "BP 180",
-        "url": "https://in.bookmyshow.com/movies/bp-180/ET00470264",
-        "city": "Delhi-NCR",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "School Life",
-        "url": "https://in.bookmyshow.com/movies/school-life/ET00466172",
-        "city": "Delhi-NCR",
-        "status": "COMING_SOON"
-      }
-    ],
-    "theatres": [
-      {
-        "name": "Cineport Cinemas: SVH Metro Street, Sector 83",
-        "url": "https://in.bookmyshow.com/cinemas/national-capital-region-ncr/cineport-cinemas-svh-metro-street-sector-83/HVCD",
-        "city": "Delhi-NCR"
-      },
-      {
-        "name": "INOX Sapphire 90 Mall: Gurugram",
-        "url": "https://in.bookmyshow.com/cinemas/national-capital-region-ncr/inox-sapphire-90-mall-gurugram/INSG",
-        "city": "Delhi-NCR"
-      },
-      {
-        "name": "INOX: Shipra Mall, Ghaziabad",
-        "url": "https://in.bookmyshow.com/cinemas/national-capital-region-ncr/inox-shipra-mall-ghaziabad/ISMG",
-        "city": "Delhi-NCR"
-      },
-      {
-        "name": "Gagan Theatre: Nand Nagri, Delhi",
-        "url": "https://in.bookmyshow.com/cinemas/national-capital-region-ncr/gagan-theatre-nand-nagri-delhi/GAGC",
-        "city": "Delhi-NCR"
-      },
-      {
-        "name": "Gurugram: PVR Director`s Cut, Ambience Mall",
-        "url": "https://in.bookmyshow.com/cinemas/national-capital-region-ncr/gurugram-pvr-directors-cut-ambience-mall/GPDC",
-        "city": "Delhi-NCR"
-      },
-      {
-        "name": "INOX: World Mark, Gurugram",
-        "url": "https://in.bookmyshow.com/cinemas/national-capital-region-ncr/inox-world-mark-gurugram/INWM",
-        "city": "Delhi-NCR"
-      },
-      {
-        "name": "INOX: Omaxe Connaught Place Mall, Greater Noida",
-        "url": "https://in.bookmyshow.com/cinemas/national-capital-region-ncr/inox-omaxe-connaught-place-mall-greater-noida/IOMG",
-        "city": "Delhi-NCR"
-      },
-      {
-        "name": "PVR: Opulent, Ghaziabad",
-        "url": "https://in.bookmyshow.com/cinemas/national-capital-region-ncr/pvr-opulent-ghaziabad/IOTG",
-        "city": "Delhi-NCR"
-      },
-      {
-        "name": "Grand Cinemaz@Choudhry Mall",
-        "url": "https://in.bookmyshow.com/cinemas/national-capital-region-ncr/grand-cinemazchoudhry-mall/GRNG",
-        "city": "Delhi-NCR"
-      },
-      {
-        "name": "INOX: IRIS Broadway Gurugram",
-        "url": "https://in.bookmyshow.com/cinemas/national-capital-region-ncr/inox-iris-broadway-gurugram/IBYG",
-        "city": "Delhi-NCR"
-      }
-    ],
+    "movies": [],
+    "theatres": [],
     "filters": {
       "formats": [
         "2D",
         "3D",
-        "4DX",
         "IMAX",
-        "MX4D"
+        "4DX"
       ],
       "languages": [
         "English",
         "Hindi",
-        "Kannada",
-        "Malayalam",
         "Tamil",
         "Telugu"
       ]
@@ -1839,403 +468,110 @@
   "Kochi": {
     "movies": [
       {
-        "title": "Mastiii 4AHindiMastiii 4",
-        "url": "https://in.bookmyshow.com/movies/kochi/mastiii-4/ET00464040",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "EkoUA16+MalayalamEko",
-        "url": "https://in.bookmyshow.com/movies/kochi/eko/ET00470809",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Vilayath BudhaUA16+MalayalamVilayath Budha",
-        "url": "https://in.bookmyshow.com/movies/kochi/vilayath-budha/ET00471246",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Dies IraeAMalayalamDies Irae",
-        "url": "https://in.bookmyshow.com/movies/kochi/dies-irae/ET00457060",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Amos AlexanderUA16+MalayalamAmos Alexander",
-        "url": "https://in.bookmyshow.com/movies/kochi/amos-alexander/ET00470231",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The Pet DetectiveUMalayalamThe Pet Detective",
-        "url": "https://in.bookmyshow.com/movies/kochi/the-pet-detective/ET00465248",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Ithiri NeramUA16+MalayalamIthiri Neram",
-        "url": "https://in.bookmyshow.com/movies/kochi/ithiri-neram/ET00467419",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Lokah: Chapter 1 - ChandraUA16+Malayalam, Tamil, Hindi, KannadaLokah: Chapter 1 - Chandra",
-        "url": "https://in.bookmyshow.com/movies/kochi/lokah-chapter-1-chandra/ET00456016",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Help LineUMalayalamHelp Line",
-        "url": "https://in.bookmyshow.com/movies/kochi/help-line/ET00471787",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Sisu: Road to RevengeAEnglish, Telugu, Tamil, HindiSisu: Road to Revenge",
-        "url": "https://in.bookmyshow.com/movies/kochi/sisu-road-to-revenge/ET00448820",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "KaanthaUA13+Tamil, TeluguKaantha",
-        "url": "https://in.bookmyshow.com/movies/kochi/kaantha/ET00432079",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Predator: BadlandsUA16+English, Hindi, Tamil, TeluguPredator: Badlands",
-        "url": "https://in.bookmyshow.com/movies/kochi/predator-badlands/ET00443704",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The Amazing Spider-Man 2 UEnglish, Tamil, Hindi, TeluguThe Amazing Spider-Man 2",
-        "url": "https://in.bookmyshow.com/movies/kochi/the-amazing-spiderman-2/ET00027548",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The Amazing Spider-Man UEnglish, Hindi, Tamil, TeluguThe Amazing Spider-Man",
-        "url": "https://in.bookmyshow.com/movies/kochi/the-amazing-spiderman/ET00007442",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Demon Slayer: Kimetsu no Yaiba Infinity CastleUA13+Japanese, English, Hindi, Tamil, TeluguDemon Slayer: Kimetsu no Yaiba Infinity Castle",
-        "url": "https://in.bookmyshow.com/movies/kochi/demon-slayer-kimetsu-no-yaiba-infinity-castle/ET00436673",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Mask (2025)UA16+TamilMask (2025)",
-        "url": "https://in.bookmyshow.com/movies/kochi/mask-2025/ET00470630",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Sisu: Road to Revenge",
-        "url": "https://in.bookmyshow.com/movies/sisu-road-to-revenge/ET00448820",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Predator: Badlands",
-        "url": "https://in.bookmyshow.com/movies/predator-badlands-3d/ET00469296",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Eko",
-        "url": "https://in.bookmyshow.com/movies/eko/ET00470809",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Vilayath Budha",
-        "url": "https://in.bookmyshow.com/movies/vilayath-budha/ET00471246",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Dies Irae",
-        "url": "https://in.bookmyshow.com/movies/dies-irae/ET00457060",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Kaantha",
-        "url": "https://in.bookmyshow.com/movies/kaantha/ET00432079",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "120 Bahadur",
-        "url": "https://in.bookmyshow.com/movies/120-bahadur/ET00410659",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Wicked: For Good",
-        "url": "https://in.bookmyshow.com/movies/wicked-for-good-3d/ET00471497",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Mask (2025)",
-        "url": "https://in.bookmyshow.com/movies/mask-2025/ET00470630",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Mastiii 4",
-        "url": "https://in.bookmyshow.com/movies/mastiii-4/ET00464040",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Andhra King Taluka",
-        "url": "https://in.bookmyshow.com/movies/andhra-king-taluka/ET00446228",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Bank of Bhagyalakshmi",
-        "url": "https://in.bookmyshow.com/movies/bank-of-bhagyalakshmi/ET00465417",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Bombay Positive",
-        "url": "https://in.bookmyshow.com/movies/bombay-positive/ET00460303",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Tere Ishk Mein",
-        "url": "https://in.bookmyshow.com/movies/tere-ishk-mein/ET00362760",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Me No Pause Me Play",
-        "url": "https://in.bookmyshow.com/movies/me-no-pause-me-play/ET00468105",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Paatashaala",
-        "url": "https://in.bookmyshow.com/movies/paatashaala/ET00469230",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Eternity",
-        "url": "https://in.bookmyshow.com/movies/eternity/ET00460545",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Danab",
-        "url": "https://in.bookmyshow.com/movies/danab/ET00411073",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "School Life",
-        "url": "https://in.bookmyshow.com/movies/school-life/ET00466172",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Kaisi Ye Paheli",
-        "url": "https://in.bookmyshow.com/movies/kaisi-ye-paheli/ET00469366",
-        "city": "Kochi",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Avatar: Fire and AshAction/Adventure/Fantasy/Sci-Fi 1.2m likesAvatar: Fire and Ash",
-        "url": "https://in.bookmyshow.com/movies/kochi/avatar-fire-and-ash/ET00407893",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Tere Ishk MeinDrama/Romantic 123.0k likesTere Ishk Mein",
-        "url": "https://in.bookmyshow.com/movies/kochi/tere-ishk-mein/ET00362760",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Andhra King TalukaAction/Comedy/Drama/Romantic 63.4k likesAndhra King Taluka",
-        "url": "https://in.bookmyshow.com/movies/kochi/andhra-king-taluka/ET00446228",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Zootopia 2Adventure/Animation/Comedy 62.2k likesZootopia 2",
-        "url": "https://in.bookmyshow.com/movies/kochi/zootopia-2/ET00441877",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Toxic: A Fairy Tale for Grown-upsAction/Thriller 238.9k likesToxic: A Fairy Tale for Grown-ups",
-        "url": "https://in.bookmyshow.com/movies/kochi/toxic-a-fairy-tale-for-grownups/ET00378770",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Akhanda 2: ThaandavamAction/Drama 53.7k likesAkhanda 2: Thaandavam",
-        "url": "https://in.bookmyshow.com/movies/kochi/akhanda-2-thaandavam/ET00416621",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "DhurandharAction/Thriller 59.0k likesDhurandhar",
-        "url": "https://in.bookmyshow.com/movies/kochi/dhurandhar/ET00452447",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The Raja SaabComedy/Horror/Romantic 209.0k likesThe Raja Saab",
-        "url": "https://in.bookmyshow.com/movies/kochi/the-raja-saab/ET00383697",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The DevilAction/Drama/Thriller 80.8k likesThe Devil",
-        "url": "https://in.bookmyshow.com/movies/kochi/the-devil/ET00387652",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Jana NayaganAction/Drama/Political 102.2k likesJana Nayagan",
-        "url": "https://in.bookmyshow.com/movies/kochi/jana-nayagan/ET00430817",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Tu Meri Main Tera Main Tera Tu MeriComedy/Romantic 102.3k likesTu Meri Main Tera Main Tera Tu Meri",
-        "url": "https://in.bookmyshow.com/movies/kochi/tu-meri-main-tera-main-tera-tu-meri/ET00426670",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "ParasakthiAction/Drama/Political 103.8k likesParasakthi",
-        "url": "https://in.bookmyshow.com/movies/kochi/parasakthi/ET00431398",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "PeddiAction/Thriller 92.1k likesPeddi",
-        "url": "https://in.bookmyshow.com/movies/kochi/peddi/ET00439772",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Me No Pause Me PlayDrama/Social 20.3k likesMe No Pause Me Play",
-        "url": "https://in.bookmyshow.com/movies/kochi/me-no-pause-me-play/ET00468105",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "BikerAction/Drama/Romantic/Sports 24.9k likesBiker",
-        "url": "https://in.bookmyshow.com/movies/kochi/biker/ET00469257",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "MarkAction/Thriller 72.4k likesMark",
-        "url": "https://in.bookmyshow.com/movies/kochi/mark/ET00460662",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Sisu: Road to Revenge",
-        "url": "https://in.bookmyshow.com/movies/sisu-road-to-revenge/ET00448820",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Predator: Badlands",
-        "url": "https://in.bookmyshow.com/movies/predator-badlands-3d/ET00469296",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The Amazing Spider-Man 2",
-        "url": "https://in.bookmyshow.com/movies/the-amazing-spiderman-2/ET00027548",
-        "city": "Kochi",
-        "status": "COMING_SOON"
-      }
-    ],
-    "theatres": [
-      {
-        "name": "PVR: Forum Mall, Kochi",
-        "url": "https://in.bookmyshow.com/cinemas/kochi/pvr-forum-mall-kochi/PVMF",
+        "title": "Mastiii 4Mastiii 4",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00464040",
+        "status": "NOW_SHOWING",
         "city": "Kochi"
       },
       {
-        "name": "PAN Cinemas Nucleus Mall 4K ATMOS",
-        "url": "https://in.bookmyshow.com/cinemas/kochi/pan-cinemas-nucleus-mall-4k-atmos/PCNM",
+        "title": "EkoEko",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00470809",
+        "status": "NOW_SHOWING",
         "city": "Kochi"
       },
       {
-        "name": "PVR: Oberon Mall, Kochi",
-        "url": "https://in.bookmyshow.com/cinemas/kochi/pvr-oberon-mall-kochi/PCVB",
+        "title": "Vilayath BudhaVilayath Budha",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00471246",
+        "status": "NOW_SHOWING",
         "city": "Kochi"
       },
       {
-        "name": "Savita Cinema: Kochi",
-        "url": "https://in.bookmyshow.com/cinemas/kochi/savita-cinema-kochi/SCKI",
+        "title": "Sisu: Road to RevengeSisu: Road to Revenge",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00448820",
+        "status": "NOW_SHOWING",
         "city": "Kochi"
       },
       {
-        "name": "Majestic Multiplex 4K RGB Laser: Narakkal",
-        "url": "https://in.bookmyshow.com/cinemas/kochi/majestic-multiplex-4k-rgb-laser-narakkal/MAJT",
+        "title": "120 Bahadur120 Bahadur",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00410659",
+        "status": "NOW_SHOWING",
         "city": "Kochi"
       },
       {
-        "name": "M Cinemas 4K 3D Dolby ATMOS: Varapuzha",
-        "url": "https://in.bookmyshow.com/cinemas/kochi/m-cinemas-4k-3d-dolby-atmos-varapuzha/MCIK",
+        "title": "Wicked: For GoodWicked: For Good",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00458691",
+        "status": "NOW_SHOWING",
         "city": "Kochi"
       },
       {
-        "name": "New Central Talkies RGB Laser 4K 3D Dolby Atmos",
-        "url": "https://in.bookmyshow.com/cinemas/kochi/new-central-talkies-rgb-laser-4k-3d-dolby-atmos/NTTR",
+        "title": "Mask (2025)Mask (2025)",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00470630",
+        "status": "NOW_SHOWING",
         "city": "Kochi"
       },
       {
-        "name": "Padma Cinema: Kochi",
-        "url": "https://in.bookmyshow.com/cinemas/kochi/padma-cinema-kochi/PMCE",
+        "title": "Theeyavar Kulai NadungaTheeyavar Kulai Nadunga",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00470554",
+        "status": "NOW_SHOWING",
         "city": "Kochi"
       },
       {
-        "name": "PVR: Lulu, Kochi",
-        "url": "https://in.bookmyshow.com/cinemas/kochi/pvr-lulu-kochi/PVLC",
+        "title": "Avatar: Fire and AshAction/Adventure/Fantasy/Sci-FiAvatar: Fire and Ash",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00407893",
+        "status": "NOW_SHOWING",
         "city": "Kochi"
       },
       {
-        "name": "K Cinemas 4K Dolby Atmos Tripplebeam 3D: Cherai",
-        "url": "https://in.bookmyshow.com/cinemas/kochi/k-cinemas-4k-dolby-atmos-tripplebeam-3d-cherai/KCTK",
+        "title": "Tere Ishk MeinDrama/RomanticTere Ishk Mein",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00362760",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Andhra King TalukaAction/Comedy/Drama/RomanticAndhra King Taluka",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00446228",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Zootopia 2Adventure/Animation/ComedyZootopia 2",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00441877",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Toxic: A Fairy Tale for Grown-upsAction/ThrillerToxic: A Fairy Tale for Grown-ups",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00378770",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Akhanda 2: ThaandavamAction/DramaAkhanda 2: Thaandavam",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00416621",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "DhurandharAction/ThrillerDhurandhar",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00452447",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "The Raja SaabComedy/Horror/RomanticThe Raja Saab",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00383697",
+        "status": "NOW_SHOWING",
         "city": "Kochi"
       }
     ],
+    "theatres": [],
     "filters": {
       "formats": [
-        "2D",
-        "3D",
-        "4DX",
-        "ICE",
-        "IMAX",
-        "MX4D",
-        "ScreenX"
+        "2D"
       ],
       "languages": [
         "English",
         "Hindi",
-        "Kannada",
-        "Malayalam",
         "Tamil",
         "Telugu"
       ]
@@ -2244,403 +580,110 @@
   "Pune": {
     "movies": [
       {
-        "title": "Mastiii 4AHindiMastiii 4",
-        "url": "https://in.bookmyshow.com/movies/pune/mastiii-4/ET00464040",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "AsambhavUA16+MarathiAsambhav",
-        "url": "https://in.bookmyshow.com/movies/pune/asambhav/ET00467711",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Smart SunbaiUA13+MarathiSmart Sunbai",
-        "url": "https://in.bookmyshow.com/movies/pune/smart-sunbai/ET00465636",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Last Stop KhandaUA16+MarathiLast Stop Khanda",
-        "url": "https://in.bookmyshow.com/movies/pune/last-stop-khanda/ET00465473",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Uut: Bhavanancha UdrekUAMarathiUut: Bhavanancha Udrek",
-        "url": "https://in.bookmyshow.com/movies/pune/uut-bhavanancha-udrek/ET00467167",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "GondhalUA16+MarathiGondhal",
-        "url": "https://in.bookmyshow.com/movies/pune/gondhal/ET00465382",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Punha Shivajiraje BhosaleUA16+MarathiPunha Shivajiraje Bhosale",
-        "url": "https://in.bookmyshow.com/movies/pune/punha-shivajiraje-bhosale/ET00466206",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Abhanga TukaramUMarathiAbhanga Tukaram",
-        "url": "https://in.bookmyshow.com/movies/pune/abhanga-tukaram/ET00463835",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Teen Paayancha GhodaAMarathiTeen Paayancha Ghoda",
-        "url": "https://in.bookmyshow.com/movies/pune/teen-paayancha-ghoda/ET00468243",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "ReelstarUA13+MarathiReelstar",
-        "url": "https://in.bookmyshow.com/movies/pune/reelstar/ET00469785",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Tere Ishk MeinHindi, TamilTere Ishk Mein",
-        "url": "https://in.bookmyshow.com/movies/pune/tere-ishk-mein/ET00362760",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "120 BahadurUA13+Hindi120 Bahadur",
-        "url": "https://in.bookmyshow.com/movies/pune/120-bahadur/ET00410659",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Kantara: A Legend Chapter-1UA16+Kannada, Telugu, Hindi, Tamil, Malayalam, EnglishKantara: A Legend Chapter-1",
-        "url": "https://in.bookmyshow.com/movies/pune/kantara-a-legend-chapter1/ET00377351",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Now You See Me: Now You Don'tUA16+EnglishNow You See Me: Now You Don't",
-        "url": "https://in.bookmyshow.com/movies/pune/now-you-see-me-now-you-dont/ET00444056",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The Amazing Spider-Man 2 UEnglish, Tamil, Hindi, TeluguThe Amazing Spider-Man 2",
-        "url": "https://in.bookmyshow.com/movies/pune/the-amazing-spiderman-2/ET00027548",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "De De Pyaar De 2UA13+HindiDe De Pyaar De 2",
-        "url": "https://in.bookmyshow.com/movies/pune/de-de-pyaar-de-2/ET00391156",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Tere Ishk Mein",
-        "url": "https://in.bookmyshow.com/movies/tere-ishk-mein/ET00362760",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "120 Bahadur",
-        "url": "https://in.bookmyshow.com/movies/120-bahadur/ET00410659",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "De De Pyaar De 2",
-        "url": "https://in.bookmyshow.com/movies/de-de-pyaar-de-2/ET00391156",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Mastiii 4",
-        "url": "https://in.bookmyshow.com/movies/mastiii-4/ET00464040",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Asambhav",
-        "url": "https://in.bookmyshow.com/movies/asambhav/ET00467711",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Wicked: For Good",
-        "url": "https://in.bookmyshow.com/movies/wicked-for-good-3d/ET00471497",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Haq",
-        "url": "https://in.bookmyshow.com/movies/haq/ET00464000",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Now You See Me: Now You Don't",
-        "url": "https://in.bookmyshow.com/movies/now-you-see-me-now-you-dont/ET00444056",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Kantara: A Legend Chapter-1",
-        "url": "https://in.bookmyshow.com/movies/kantara-a-legend-chapter1-hindi/ET00442474",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Sisu: Road to Revenge",
-        "url": "https://in.bookmyshow.com/movies/sisu-road-to-revenge/ET00448820",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Bank of Bhagyalakshmi",
-        "url": "https://in.bookmyshow.com/movies/bank-of-bhagyalakshmi/ET00465417",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Andhra King Taluka",
-        "url": "https://in.bookmyshow.com/movies/andhra-king-taluka/ET00446228",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Kalamkaval",
-        "url": "https://in.bookmyshow.com/movies/kalamkaval/ET00468439",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Maruvatarama",
-        "url": "https://in.bookmyshow.com/movies/maruvatarama/ET00472165",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Nayi Idae Yecharikae",
-        "url": "https://in.bookmyshow.com/movies/nayi-idae-yecharikae/ET00470940",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "GST (Ghosts in Trouble)",
-        "url": "https://in.bookmyshow.com/movies/gst-ghosts-in-trouble/ET00471001",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Me No Pause Me Play",
-        "url": "https://in.bookmyshow.com/movies/me-no-pause-me-play/ET00468105",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Vellakuthira",
-        "url": "https://in.bookmyshow.com/movies/vellakuthira/ET00468314",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Tantra (2025)",
-        "url": "https://in.bookmyshow.com/movies/tantra-2025/ET00470001",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Nirdhar",
-        "url": "https://in.bookmyshow.com/movies/nirdhar/ET00472164",
-        "city": "Pune",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Avatar: Fire and AshAction/Adventure/Fantasy/Sci-Fi 1.2m likesAvatar: Fire and Ash",
-        "url": "https://in.bookmyshow.com/movies/pune/avatar-fire-and-ash/ET00407893",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Andhra King TalukaAction/Comedy/Drama/Romantic 63.4k likesAndhra King Taluka",
-        "url": "https://in.bookmyshow.com/movies/pune/andhra-king-taluka/ET00446228",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Zootopia 2Adventure/Animation/Comedy 62.2k likesZootopia 2",
-        "url": "https://in.bookmyshow.com/movies/pune/zootopia-2/ET00441877",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Toxic: A Fairy Tale for Grown-upsAction/Thriller 238.9k likesToxic: A Fairy Tale for Grown-ups",
-        "url": "https://in.bookmyshow.com/movies/pune/toxic-a-fairy-tale-for-grownups/ET00378770",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Akhanda 2: ThaandavamAction/Drama 53.7k likesAkhanda 2: Thaandavam",
-        "url": "https://in.bookmyshow.com/movies/pune/akhanda-2-thaandavam/ET00416621",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "DhurandharAction/Thriller 59.0k likesDhurandhar",
-        "url": "https://in.bookmyshow.com/movies/pune/dhurandhar/ET00452447",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The Raja SaabComedy/Horror/Romantic 209.0k likesThe Raja Saab",
-        "url": "https://in.bookmyshow.com/movies/pune/the-raja-saab/ET00383697",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The DevilAction/Drama/Thriller 80.8k likesThe Devil",
-        "url": "https://in.bookmyshow.com/movies/pune/the-devil/ET00387652",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Jana NayaganAction/Drama/Political 102.2k likesJana Nayagan",
-        "url": "https://in.bookmyshow.com/movies/pune/jana-nayagan/ET00430817",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Tu Meri Main Tera Main Tera Tu MeriComedy/Romantic 102.3k likesTu Meri Main Tera Main Tera Tu Meri",
-        "url": "https://in.bookmyshow.com/movies/pune/tu-meri-main-tera-main-tera-tu-meri/ET00426670",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "ParasakthiAction/Drama/Political 103.8k likesParasakthi",
-        "url": "https://in.bookmyshow.com/movies/pune/parasakthi/ET00431398",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "PeddiAction/Thriller 92.1k likesPeddi",
-        "url": "https://in.bookmyshow.com/movies/pune/peddi/ET00439772",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Me No Pause Me PlayDrama/Social 20.3k likesMe No Pause Me Play",
-        "url": "https://in.bookmyshow.com/movies/pune/me-no-pause-me-play/ET00468105",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "BikerAction/Drama/Romantic/Sports 24.9k likesBiker",
-        "url": "https://in.bookmyshow.com/movies/pune/biker/ET00469257",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "MarkAction/Thriller 72.4k likesMark",
-        "url": "https://in.bookmyshow.com/movies/pune/mark/ET00460662",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Not All Movies Are The Same: DualHorror/Mystery/Sci-Fi/Thriller 15.7k likesNot All Movies Are The Same: Dual",
-        "url": "https://in.bookmyshow.com/movies/pune/not-all-movies-are-the-same-dual/ET00462838",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Tere Ishk Mein",
-        "url": "https://in.bookmyshow.com/movies/tere-ishk-mein/ET00362760",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "120 Bahadur",
-        "url": "https://in.bookmyshow.com/movies/120-bahadur/ET00410659",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Kantara: A Legend Chapter-1",
-        "url": "https://in.bookmyshow.com/movies/kantara-a-legend-chapter1-hindi/ET00442474",
-        "city": "Pune",
-        "status": "COMING_SOON"
-      }
-    ],
-    "theatres": [
-      {
-        "name": "INOX: Bund Garden Road",
-        "url": "https://in.bookmyshow.com/cinemas/pune/inox-bund-garden-road/INPN",
+        "title": "Mastiii 4Mastiii 4",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00464040",
+        "status": "NOW_SHOWING",
         "city": "Pune"
       },
       {
-        "name": "Laxmi Cineplex: Narayangaon",
-        "url": "https://in.bookmyshow.com/cinemas/pune/laxmi-cineplex-narayangaon/LCPC",
+        "title": "120 Bahadur120 Bahadur",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00410659",
+        "status": "NOW_SHOWING",
         "city": "Pune"
       },
       {
-        "name": "MovieMax: Amanora Town Centre, Pune(Now Renovated)",
-        "url": "https://in.bookmyshow.com/cinemas/pune/moviemax-amanora-town-centre-punenow-renovated/MATK",
+        "title": "Tere Ishk MeinTere Ishk Mein",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00362760",
+        "status": "NOW_SHOWING",
         "city": "Pune"
       },
       {
-        "name": "E-SQUARE: University Road, Pune (Newly Renovated)",
-        "url": "https://in.bookmyshow.com/cinemas/pune/esquare-university-road-pune-newly-renovated/NPSE",
+        "title": "AsambhavAsambhav",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00467711",
+        "status": "NOW_SHOWING",
         "city": "Pune"
       },
       {
-        "name": "Cinepolis: VIP Seasons Mall, Pune",
-        "url": "https://in.bookmyshow.com/cinemas/pune/cinepolis-vip-seasons-mall-pune/PUVB",
+        "title": "Wicked: For GoodWicked: For Good",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00458691",
+        "status": "NOW_SHOWING",
         "city": "Pune"
       },
       {
-        "name": "Rahul 70 MM: Shivajinagar, Pune",
-        "url": "https://in.bookmyshow.com/cinemas/pune/rahul-70-mm-shivajinagar-pune/RAHU",
+        "title": "Sisu: Road to RevengeSisu: Road to Revenge",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00448820",
+        "status": "NOW_SHOWING",
         "city": "Pune"
       },
       {
-        "name": "Cinepolis: Seasons Mall, Pune",
-        "url": "https://in.bookmyshow.com/cinemas/pune/cinepolis-seasons-mall-pune/PUNB",
+        "title": "Smart SunbaiSmart Sunbai",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00465636",
+        "status": "NOW_SHOWING",
         "city": "Pune"
       },
       {
-        "name": "Shevanta Cinema: Junnar",
-        "url": "https://in.bookmyshow.com/cinemas/pune/shevanta-cinema-junnar/SHEV",
+        "title": "Last Stop KhandaLast Stop Khanda",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00465473",
+        "status": "NOW_SHOWING",
         "city": "Pune"
       },
       {
-        "name": "Satyam Theatre: Rajgurunagar (Pune)",
-        "url": "https://in.bookmyshow.com/cinemas/pune/satyam-theatre-rajgurunagar-pune/SARN",
+        "title": "Avatar: Fire and AshAction/Adventure/Fantasy/Sci-FiAvatar: Fire and Ash",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00407893",
+        "status": "NOW_SHOWING",
         "city": "Pune"
       },
       {
-        "name": "Vikas Cinema: Manchar",
-        "url": "https://in.bookmyshow.com/cinemas/pune/vikas-cinema-manchar/VCMP",
+        "title": "Andhra King TalukaAction/Comedy/Drama/RomanticAndhra King Taluka",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00446228",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Zootopia 2Adventure/Animation/ComedyZootopia 2",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00441877",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Toxic: A Fairy Tale for Grown-upsAction/ThrillerToxic: A Fairy Tale for Grown-ups",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00378770",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Akhanda 2: ThaandavamAction/DramaAkhanda 2: Thaandavam",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00416621",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "DhurandharAction/ThrillerDhurandhar",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00452447",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "The Raja SaabComedy/Horror/RomanticThe Raja Saab",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00383697",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "The DevilAction/Drama/ThrillerThe Devil",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00387652",
+        "status": "NOW_SHOWING",
         "city": "Pune"
       }
     ],
+    "theatres": [],
     "filters": {
       "formats": [
-        "2D",
-        "3D",
-        "4DX",
-        "ICE",
-        "IMAX",
-        "MX4D",
-        "ScreenX"
+        "2D"
       ],
       "languages": [
         "English",
         "Hindi",
-        "Kannada",
-        "Malayalam",
         "Tamil",
         "Telugu"
       ]
@@ -2649,403 +692,110 @@
   "Kolkata": {
     "movies": [
       {
-        "title": "Mastiii 4AHindiMastiii 4",
-        "url": "https://in.bookmyshow.com/movies/kolkata/mastiii-4/ET00464040",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The Academy of Fine ArtsABengaliThe Academy of Fine Arts",
-        "url": "https://in.bookmyshow.com/movies/kolkata/the-academy-of-fine-arts/ET00440981",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Lokkhikantopur LocalUA16+BengaliLokkhikantopur Local",
-        "url": "https://in.bookmyshow.com/movies/kolkata/lokkhikantopur-local/ET00470266",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Deep FridgeUABengaliDeep Fridge",
-        "url": "https://in.bookmyshow.com/movies/kolkata/deep-fridge/ET00391852",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Police (2025)UA16+BengaliPolice (2025)",
-        "url": "https://in.bookmyshow.com/movies/kolkata/police-2025/ET00469831",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Ranna BaatiUA13+BengaliRanna Baati",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ranna-baati/ET00458179",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "SharthoporUA13+BengaliSharthopor",
-        "url": "https://in.bookmyshow.com/movies/kolkata/sharthopor/ET00464543",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Raghu DakatUA16+BengaliRaghu Dakat",
-        "url": "https://in.bookmyshow.com/movies/kolkata/raghu-dakat/ET00428268",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Tere Ishk MeinHindi, TamilTere Ishk Mein",
-        "url": "https://in.bookmyshow.com/movies/kolkata/tere-ishk-mein/ET00362760",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "120 BahadurUA13+Hindi120 Bahadur",
-        "url": "https://in.bookmyshow.com/movies/kolkata/120-bahadur/ET00410659",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "HaqUA13+HindiHaq",
-        "url": "https://in.bookmyshow.com/movies/kolkata/haq/ET00464000",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "De De Pyaar De 2UA13+HindiDe De Pyaar De 2",
-        "url": "https://in.bookmyshow.com/movies/kolkata/de-de-pyaar-de-2/ET00391156",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Ek Deewane Ki DeewaniyatAHindiEk Deewane Ki Deewaniyat",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ek-deewane-ki-deewaniyat/ET00447585",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The Amazing Spider-Man 2 UEnglish, Tamil, Hindi, TeluguThe Amazing Spider-Man 2",
-        "url": "https://in.bookmyshow.com/movies/kolkata/the-amazing-spiderman-2/ET00027548",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Now You See Me: Now You Don'tUA16+EnglishNow You See Me: Now You Don't",
-        "url": "https://in.bookmyshow.com/movies/kolkata/now-you-see-me-now-you-dont/ET00444056",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "ThammaUA16+Hindi, TeluguThamma",
-        "url": "https://in.bookmyshow.com/movies/kolkata/thamma/ET00443268",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Tere Ishk Mein",
-        "url": "https://in.bookmyshow.com/movies/tere-ishk-mein/ET00362760",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "120 Bahadur",
-        "url": "https://in.bookmyshow.com/movies/120-bahadur/ET00410659",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Mastiii 4",
-        "url": "https://in.bookmyshow.com/movies/mastiii-4/ET00464040",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "De De Pyaar De 2",
-        "url": "https://in.bookmyshow.com/movies/de-de-pyaar-de-2/ET00391156",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "The Academy of Fine Arts",
-        "url": "https://in.bookmyshow.com/movies/the-academy-of-fine-arts/ET00440981",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Lokkhikantopur Local",
-        "url": "https://in.bookmyshow.com/movies/lokkhikantopur-local/ET00470266",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Haq",
-        "url": "https://in.bookmyshow.com/movies/haq/ET00464000",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Sisu: Road to Revenge",
-        "url": "https://in.bookmyshow.com/movies/sisu-road-to-revenge-hindi/ET00465652",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Deep Fridge",
-        "url": "https://in.bookmyshow.com/movies/deep-fridge/ET00391852",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Wicked: For Good",
-        "url": "https://in.bookmyshow.com/movies/wicked-for-good-3d/ET00471497",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Andhra King Taluka",
-        "url": "https://in.bookmyshow.com/movies/andhra-king-taluka/ET00446228",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Bank of Bhagyalakshmi",
-        "url": "https://in.bookmyshow.com/movies/bank-of-bhagyalakshmi/ET00465417",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Kalamkaval",
-        "url": "https://in.bookmyshow.com/movies/kalamkaval/ET00468439",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Nayi Idae Yecharikae",
-        "url": "https://in.bookmyshow.com/movies/nayi-idae-yecharikae/ET00470940",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "IPL: Indian Penal Law",
-        "url": "https://in.bookmyshow.com/movies/ipl-indian-penal-law/ET00471994",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Bicchugatthiya Bantana Ballirena",
-        "url": "https://in.bookmyshow.com/movies/bicchugatthiya-bantana-ballirena/ET00471212",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Hukkey",
-        "url": "https://in.bookmyshow.com/movies/hukkey/ET00470526",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Aavaa De",
-        "url": "https://in.bookmyshow.com/movies/aavaa-de/ET00470116",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Yamla",
-        "url": "https://in.bookmyshow.com/movies/yamla/ET00470801",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Nirdhar",
-        "url": "https://in.bookmyshow.com/movies/nirdhar/ET00472164",
-        "city": "Kolkata",
-        "status": "NOW_SHOWING"
-      },
-      {
-        "title": "Avatar: Fire and AshAction/Adventure/Fantasy/Sci-Fi 1.2m likesAvatar: Fire and Ash",
-        "url": "https://in.bookmyshow.com/movies/kolkata/avatar-fire-and-ash/ET00407893",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Andhra King TalukaAction/Comedy/Drama/Romantic 63.4k likesAndhra King Taluka",
-        "url": "https://in.bookmyshow.com/movies/kolkata/andhra-king-taluka/ET00446228",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Zootopia 2Adventure/Animation/Comedy 62.2k likesZootopia 2",
-        "url": "https://in.bookmyshow.com/movies/kolkata/zootopia-2/ET00441877",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Toxic: A Fairy Tale for Grown-upsAction/Thriller 238.9k likesToxic: A Fairy Tale for Grown-ups",
-        "url": "https://in.bookmyshow.com/movies/kolkata/toxic-a-fairy-tale-for-grownups/ET00378770",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Akhanda 2: ThaandavamAction/Drama 53.7k likesAkhanda 2: Thaandavam",
-        "url": "https://in.bookmyshow.com/movies/kolkata/akhanda-2-thaandavam/ET00416621",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "DhurandharAction/Thriller 59.0k likesDhurandhar",
-        "url": "https://in.bookmyshow.com/movies/kolkata/dhurandhar/ET00452447",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The Raja SaabComedy/Horror/Romantic 209.0k likesThe Raja Saab",
-        "url": "https://in.bookmyshow.com/movies/kolkata/the-raja-saab/ET00383697",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "The DevilAction/Drama/Thriller 80.8k likesThe Devil",
-        "url": "https://in.bookmyshow.com/movies/kolkata/the-devil/ET00387652",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Jana NayaganAction/Drama/Political 102.2k likesJana Nayagan",
-        "url": "https://in.bookmyshow.com/movies/kolkata/jana-nayagan/ET00430817",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Tu Meri Main Tera Main Tera Tu MeriComedy/Romantic 102.3k likesTu Meri Main Tera Main Tera Tu Meri",
-        "url": "https://in.bookmyshow.com/movies/kolkata/tu-meri-main-tera-main-tera-tu-meri/ET00426670",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "ParasakthiAction/Drama/Political 103.8k likesParasakthi",
-        "url": "https://in.bookmyshow.com/movies/kolkata/parasakthi/ET00431398",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "PeddiAction/Thriller 92.1k likesPeddi",
-        "url": "https://in.bookmyshow.com/movies/kolkata/peddi/ET00439772",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Me No Pause Me PlayDrama/Social 20.3k likesMe No Pause Me Play",
-        "url": "https://in.bookmyshow.com/movies/kolkata/me-no-pause-me-play/ET00468105",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "BikerAction/Drama/Romantic/Sports 24.9k likesBiker",
-        "url": "https://in.bookmyshow.com/movies/kolkata/biker/ET00469257",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "MarkAction/Thriller 72.4k likesMark",
-        "url": "https://in.bookmyshow.com/movies/kolkata/mark/ET00460662",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Not All Movies Are The Same: DualHorror/Mystery/Sci-Fi/Thriller 15.7k likesNot All Movies Are The Same: Dual",
-        "url": "https://in.bookmyshow.com/movies/kolkata/not-all-movies-are-the-same-dual/ET00462838",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Tere Ishk Mein",
-        "url": "https://in.bookmyshow.com/movies/tere-ishk-mein/ET00362760",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "120 Bahadur",
-        "url": "https://in.bookmyshow.com/movies/120-bahadur/ET00410659",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      },
-      {
-        "title": "Haq",
-        "url": "https://in.bookmyshow.com/movies/haq/ET00464000",
-        "city": "Kolkata",
-        "status": "COMING_SOON"
-      }
-    ],
-    "theatres": [
-      {
-        "name": "INOX: Forum Mall, Elgin Road",
-        "url": "https://in.bookmyshow.com/cinemas/kolkata/inox-forum-mall-elgin-road/INER",
+        "title": "Mastiii 4Mastiii 4",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00464040",
+        "status": "NOW_SHOWING",
         "city": "Kolkata"
       },
       {
-        "name": "INOX: Liluah, Howrah",
-        "url": "https://in.bookmyshow.com/cinemas/kolkata/inox-liluah-howrah/INLH",
+        "title": "The Academy of Fine ArtsThe Academy of Fine Arts",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00440981",
+        "status": "NOW_SHOWING",
         "city": "Kolkata"
       },
       {
-        "name": "INOX: City Centre II, Rajarhat",
-        "url": "https://in.bookmyshow.com/cinemas/kolkata/inox-city-centre-ii-rajarhat/INRK",
+        "title": "Lokkhikantopur LocalLokkhikantopur Local",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00470266",
+        "status": "NOW_SHOWING",
         "city": "Kolkata"
       },
       {
-        "name": "INOX: Metro, Jawaharlal Nehru Road",
-        "url": "https://in.bookmyshow.com/cinemas/kolkata/inox-metro-jawaharlal-nehru-road/IMJN",
+        "title": "Deep FridgeDeep Fridge",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00391852",
+        "status": "NOW_SHOWING",
         "city": "Kolkata"
       },
       {
-        "name": "INOX: Star Mall, Madhyamgram",
-        "url": "https://in.bookmyshow.com/cinemas/kolkata/inox-star-mall-madhyamgram/IMKN",
+        "title": "Police (2025)Police (2025)",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00469831",
+        "status": "NOW_SHOWING",
         "city": "Kolkata"
       },
       {
-        "name": "INOX: Quest Mall",
-        "url": "https://in.bookmyshow.com/cinemas/kolkata/inox-quest-mall/INQM",
+        "title": "Ranna BaatiRanna Baati",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00458179",
+        "status": "NOW_SHOWING",
         "city": "Kolkata"
       },
       {
-        "name": "INOX: City Center, Salt Lake",
-        "url": "https://in.bookmyshow.com/cinemas/kolkata/inox-city-center-salt-lake/INSL",
+        "title": "SharthoporSharthopor",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00464543",
+        "status": "NOW_SHOWING",
         "city": "Kolkata"
       },
       {
-        "name": "Hind INOX: Kolkata",
-        "url": "https://in.bookmyshow.com/cinemas/kolkata/hind-inox-kolkata/INHD",
+        "title": "Raghu DakatRaghu Dakat",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00428268",
+        "status": "NOW_SHOWING",
         "city": "Kolkata"
       },
       {
-        "name": "INOX: Forum Rangoli Mall, Belur",
-        "url": "https://in.bookmyshow.com/cinemas/kolkata/inox-forum-rangoli-mall-belur/IFRM",
+        "title": "Avatar: Fire and AshAction/Adventure/Fantasy/Sci-FiAvatar: Fire and Ash",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00407893",
+        "status": "NOW_SHOWING",
         "city": "Kolkata"
       },
       {
-        "name": "INOX: Swabhumi, Maulana Azad Sarani",
-        "url": "https://in.bookmyshow.com/cinemas/kolkata/inox-swabhumi-maulana-azad-sarani/INKS",
+        "title": "Andhra King TalukaAction/Comedy/Drama/RomanticAndhra King Taluka",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00446228",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Zootopia 2Adventure/Animation/ComedyZootopia 2",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00441877",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Toxic: A Fairy Tale for Grown-upsAction/ThrillerToxic: A Fairy Tale for Grown-ups",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00378770",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Akhanda 2: ThaandavamAction/DramaAkhanda 2: Thaandavam",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00416621",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "DhurandharAction/ThrillerDhurandhar",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00452447",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "The Raja SaabComedy/Horror/RomanticThe Raja Saab",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00383697",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "The DevilAction/Drama/ThrillerThe Devil",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00387652",
+        "status": "NOW_SHOWING",
         "city": "Kolkata"
       }
     ],
+    "theatres": [],
     "filters": {
       "formats": [
-        "2D",
-        "3D",
-        "4DX",
-        "ICE",
-        "IMAX",
-        "MX4D",
-        "ScreenX"
+        "2D"
       ],
       "languages": [
         "English",
         "Hindi",
-        "Kannada",
-        "Malayalam",
         "Tamil",
         "Telugu"
       ]
