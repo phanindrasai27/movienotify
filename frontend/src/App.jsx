@@ -18,18 +18,17 @@ function App() {
 
   // Metadata state
   const [cities, setCities] = useState([]);
-  const [movies, setMovies] = useState({});
-  const [theatres, setTheatres] = useState({});
+  const [metadata, setMetadata] = useState({});
 
   // Form state
   const [selectedCity, setSelectedCity] = useState('');
   const [selectedMovie, setSelectedMovie] = useState('');
   const [selectedTheatre, setSelectedTheatre] = useState('');
+  const [selectedFormat, setSelectedFormat] = useState('');
   const [customUrl, setCustomUrl] = useState('');
   const [useCustomUrl, setUseCustomUrl] = useState(false);
 
   const [newPhone, setNewPhone] = useState('');
-  const [filterFormat, setFilterFormat] = useState('');
   const [filterTime, setFilterTime] = useState('');
 
   useEffect(() => {
@@ -55,15 +54,13 @@ function App() {
         } catch (e) { return null; }
       };
 
-      const [c, m, t] = await Promise.all([
+      const [c, m] = await Promise.all([
         fetchJson('data/cities.json'),
-        fetchJson('data/movies.json'),
-        fetchJson('data/theatres.json')
+        fetchJson('data/metadata.json')
       ]);
 
       if (c) setCities(c);
-      if (m) setMovies(m);
-      if (t) setTheatres(t);
+      if (m) setMetadata(m);
 
     } catch (error) {
       console.error("Error fetching metadata:", error);
@@ -106,7 +103,7 @@ function App() {
 
     // Process filters
     const filtersArray = [];
-    if (filterFormat) filtersArray.push(filterFormat);
+    if (selectedFormat) filtersArray.push(selectedFormat);
     if (selectedTheatre) filtersArray.push(selectedTheatre); // Add theatre as filter
     if (filterTime) filtersArray.push(`TIME:${filterTime}`); // Special syntax for time
 
@@ -141,9 +138,9 @@ function App() {
       // Reset form
       setSelectedMovie('');
       setSelectedTheatre('');
+      setSelectedFormat('');
       setCustomUrl('');
       setNewPhone('');
-      setFilterFormat('');
       setFilterTime('');
       alert("Alert added successfully!");
     } catch (error) {
@@ -182,23 +179,11 @@ function App() {
   // Login screen removed as credentials are hardcoded.
   // If auth fails, the alerts just won't load (console errors).
 
-  // Common formats for "Preloading"
-  const COMMON_FORMATS = ["IMAX", "4DX", "3D", "2D", "PVR", "INOX", "DOLBY", "ICE", "GOLD"];
-
-  const toggleFormat = (fmt) => {
-    const current = filterFormat ? filterFormat.split(',').map(s => s.trim()) : [];
-    if (current.includes(fmt)) {
-      setFilterFormat(current.filter(f => f !== fmt).join(', '));
-    } else {
-      setFilterFormat([...current, fmt].join(', '));
-    }
-  };
-
-  // Helper to group movies
-  const getMoviesForCity = () => {
-    if (!selectedCity || !movies[selectedCity]) return [];
-    return movies[selectedCity];
-  };
+  // Helpers
+  const getCityData = () => metadata[selectedCity] || {};
+  const getMovies = () => getCityData().movies || [];
+  const getTheatres = () => getCityData().theatres || [];
+  const getFormats = () => getCityData().filters?.formats || [];
 
   return (
     <div className="container">
@@ -232,7 +217,7 @@ function App() {
                   <label>Movie</label>
                   <select value={selectedMovie} onChange={(e) => setSelectedMovie(e.target.value)} disabled={!selectedCity}>
                     <option value="">{selectedCity ? "Select Movie..." : "Select City First"}</option>
-                    {getMoviesForCity().map(m => (
+                    {getMovies().map(m => (
                       <option key={m.url} value={JSON.stringify(m)}>
                         {m.status === 'COMING_SOON' ? '🔜 ' : ''}{m.title}
                       </option>
@@ -248,39 +233,28 @@ function App() {
             )}
 
             {!useCustomUrl && selectedCity && (
-              <div className="form-group">
-                <label>Specific Theatre (Optional)</label>
-                <select value={selectedTheatre} onChange={(e) => setSelectedTheatre(e.target.value)}>
-                  <option value="">Any Theatre</option>
-                  {theatres[selectedCity]?.map(t => (
-                    <option key={t.url} value={t.name}>{t.name}</option>
-                  ))}
-                </select>
+              <div className="grid-2">
+                <div className="form-group">
+                  <label>Theatre (Optional)</label>
+                  <select value={selectedTheatre} onChange={(e) => setSelectedTheatre(e.target.value)}>
+                    <option value="">Any Theatre</option>
+                    {getTheatres().map(t => (
+                      <option key={t.url} value={t.name}>{t.name}</option>
+                    ))}
+                  </select>
+                </div>
+
+                <div className="form-group">
+                  <label>Format (Optional)</label>
+                  <select value={selectedFormat} onChange={(e) => setSelectedFormat(e.target.value)}>
+                    <option value="">Any Format</option>
+                    {getFormats().map(f => (
+                      <option key={f} value={f}>{f}</option>
+                    ))}
+                  </select>
+                </div>
               </div>
             )}
-
-            <div className="form-group">
-              <label>Formats (e.g. IMAX, 4DX)</label>
-              <div className="chip-container">
-                {COMMON_FORMATS.map(fmt => (
-                  <button
-                    key={fmt}
-                    type="button"
-                    className={`chip ${filterFormat.includes(fmt) ? 'selected' : ''}`}
-                    onClick={() => toggleFormat(fmt)}
-                  >
-                    {fmt}
-                  </button>
-                ))}
-              </div>
-              <input
-                type="text"
-                placeholder="Or type custom (e.g. Luxe, EPIQ)..."
-                value={filterFormat}
-                onChange={(e) => setFilterFormat(e.target.value)}
-                className="mt-2"
-              />
-            </div>
 
             <div className="grid-2">
               <div className="form-group">

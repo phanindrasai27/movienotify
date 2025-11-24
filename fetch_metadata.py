@@ -12,8 +12,7 @@ HEADERS = {
 
 DATA_DIR = 'data'
 CITIES_FILE = os.path.join(DATA_DIR, 'cities.json')
-MOVIES_FILE = os.path.join(DATA_DIR, 'movies.json')
-THEATRES_FILE = os.path.join(DATA_DIR, 'theatres.json')
+METADATA_FILE = os.path.join(DATA_DIR, 'metadata.json')
 
 def load_cities():
     if os.path.exists(CITIES_FILE):
@@ -33,8 +32,6 @@ def fetch_movies_from_url(url, city_name, status):
         soup = BeautifulSoup(response.text, 'html.parser')
         seen_titles = set()
         
-        # BMS structure varies. Look for movie cards.
-        # Common pattern: Links containing '/movies/'
         for a in soup.find_all('a', href=True):
             href = a['href']
             if '/movies/' in href and not 'buytickets' in href:
@@ -45,7 +42,6 @@ def fetch_movies_from_url(url, city_name, status):
                         title = img['alt']
                 
                 if title and title not in seen_titles:
-                    # Clean title
                     title = re.sub(r'\s+', ' ', title).strip()
                     if len(title) > 1:
                         movies.append({
@@ -68,7 +64,6 @@ def fetch_theatres_for_city(city_name):
         soup = BeautifulSoup(response.text, 'html.parser')
         seen = set()
         
-        # Look for cinema links
         for a in soup.find_all('a', href=True):
             href = a['href']
             if '/cinemas/' in href or '/cinema-card/' in href:
@@ -84,43 +79,78 @@ def fetch_theatres_for_city(city_name):
         print(f"    Error fetching theatres: {e}")
     return theatres
 
+def fetch_filters_for_city(city_name):
+    print(f"  Fetching filters for {city_name}...")
+    # Fallback formats if scraping fails
+    formats = ["IMAX", "4DX", "2D", "3D", "ICE", "ScreenX", "MX4D", "PVR", "INOX", "Gold", "Luxe"]
+    languages = ["English", "Hindi", "Tamil", "Telugu", "Malayalam", "Kannada"]
+    
+    # Attempt to scrape real filters from the movie listing page
+    url = f"https://in.bookmyshow.com/explore/movies-{city_name.lower()}"
+    try:
+        response = requests.get(url, headers=HEADERS)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # Try to find filter sections (often in accordions or sidebars)
+        # This is heuristic and might need adjustment based on BMS changes
+        scraped_formats = set()
+        scraped_langs = set()
+        
+        # Look for text that matches known formats to confirm their presence
+        text_content = soup.get_text()
+        
+        for fmt in formats:
+            if fmt in text_content:
+                scraped_formats.add(fmt)
+                
+        # If we found some, use them. If not, use all defaults.
+        if len(scraped_formats) > 2:
+            formats = list(scraped_formats)
+            
+    except Exception as e:
+        print(f"    Error fetching filters: {e}")
+        
+    return {
+        "formats": sorted(formats),
+        "languages": sorted(languages)
+    }
+
 def main():
     cities = load_cities()
-    all_movies = {}
-    all_theatres = {}
+    full_metadata = {}
 
     for city in cities:
         city_name = city['name']
-        city_code = city['code']
+        print(f"Processing {city_name}...")
         
-        # 1. Fetch Now Showing
+        # 1. Movies
         now_showing = fetch_movies_from_url(
             f"https://in.bookmyshow.com/explore/movies-{city_name.lower()}", 
-            city_name, 
-            "NOW_SHOWING"
+            city_name, "NOW_SHOWING"
         )
-        
-        # 2. Fetch Coming Soon
         coming_soon = fetch_movies_from_url(
             f"https://in.bookmyshow.com/explore/upcoming-movies-{city_name.lower()}", 
-            city_name, 
-            "COMING_SOON"
+            city_name, "COMING_SOON"
         )
         
-        all_movies[city_name] = now_showing + coming_soon
+        # 2. Theatres
+        theatres = fetch_theatres_for_city(city_name)
         
-        # 3. Fetch Theatres
-        all_theatres[city_name] = fetch_theatres_for_city(city_name)
+        # 3. Filters
+        filters = fetch_filters_for_city(city_name)
+        
+        full_metadata[city_name] = {
+            "movies": now_showing + coming_soon,
+            "theatres": theatres,
+            "filters": filters
+        }
         
         time.sleep(1)
 
-    with open(MOVIES_FILE, 'w') as f:
-        json.dump(all_movies, f, indent=2)
+    with open(METADATA_FILE, 'w') as f:
+        json.dump(full_metadata, f, indent=2)
         
-    with open(THEATRES_FILE, 'w') as f:
-        json.dump(all_theatres, f, indent=2)
-        
-    print(f"Saved metadata to {DATA_DIR}")
+    print(f"Saved consolidated metadata to {METADATA_FILE}")
 
 if __name__ == "__main__":
     main()
