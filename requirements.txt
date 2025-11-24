@@ -1,5 +1,6 @@
 requests
 beautifulsoup4
-flask
+requests
 twilio
 PyGithub
+cloudscraper

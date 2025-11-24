@@ -1,14 +1,12 @@
-import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 import json
 import os
 import time
 import re
 
-HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
-}
+# Cloudscraper instance
+scraper = cloudscraper.create_scraper()
 
 DATA_DIR = 'data'
 CITIES_FILE = os.path.join(DATA_DIR, 'cities.json')
@@ -24,7 +22,7 @@ def fetch_movies_from_url(url, city_name, status):
     print(f"  Fetching {status} for {city_name}...")
     movies = []
     try:
-        response = requests.get(url, headers=HEADERS)
+        response = scraper.get(url)
         if response.status_code != 200:
             print(f"    Failed to fetch {url}: {response.status_code}")
             return []
@@ -60,7 +58,7 @@ def fetch_theatres_for_city(city_name):
     url = f"https://in.bookmyshow.com/explore/cinemas-{city_name.lower()}"
     theatres = []
     try:
-        response = requests.get(url, headers=HEADERS)
+        response = scraper.get(url)
         soup = BeautifulSoup(response.text, 'html.parser')
         seen = set()
         
@@ -81,29 +79,21 @@ def fetch_theatres_for_city(city_name):
 
 def fetch_filters_for_city(city_name):
     print(f"  Fetching filters for {city_name}...")
-    # Fallback formats if scraping fails
     formats = ["IMAX", "4DX", "2D", "3D", "ICE", "ScreenX", "MX4D", "PVR", "INOX", "Gold", "Luxe"]
     languages = ["English", "Hindi", "Tamil", "Telugu", "Malayalam", "Kannada"]
     
-    # Attempt to scrape real filters from the movie listing page
     url = f"https://in.bookmyshow.com/explore/movies-{city_name.lower()}"
     try:
-        response = requests.get(url, headers=HEADERS)
+        response = scraper.get(url)
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        # Try to find filter sections (often in accordions or sidebars)
-        # This is heuristic and might need adjustment based on BMS changes
         scraped_formats = set()
-        scraped_langs = set()
-        
-        # Look for text that matches known formats to confirm their presence
         text_content = soup.get_text()
         
         for fmt in formats:
             if fmt in text_content:
                 scraped_formats.add(fmt)
                 
-        # If we found some, use them. If not, use all defaults.
         if len(scraped_formats) > 2:
             formats = list(scraped_formats)
             
@@ -145,7 +135,7 @@ def main():
             "filters": filters
         }
         
-        time.sleep(1)
+        time.sleep(2) # Be polite
 
     with open(METADATA_FILE, 'w') as f:
         json.dump(full_metadata, f, indent=2)
