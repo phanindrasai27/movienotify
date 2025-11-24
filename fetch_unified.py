@@ -36,14 +36,22 @@ def fetch_bms_movies(url, city_name, status):
         for a in soup.find_all('a', href=True):
             href = a['href']
             if '/movies/' in href and not 'buytickets' in href:
-                title = a.get_text().strip()
+                # Try to get title from img alt first (more reliable)
+                title = None
+                img = a.find('img')
+                if img and img.get('alt'):
+                    title = img['alt'].strip()
+                
+                # If no image, get text content
                 if not title:
-                    img = a.find('img')
-                    if img and img.get('alt'):
-                        title = img['alt']
+                    title = a.get_text().strip()
                 
                 if title and title not in seen_titles:
+                    # Clean up title
                     title = re.sub(r'\s+', ' ', title).strip()
+                    # Remove genre prefixes if present (e.g., "Action/ThrillerMovie Name")
+                    title = re.sub(r'^[A-Za-z]+(/[A-Za-z]+)*', '', title).strip()
+                    
                     if len(title) > 1:
                         movies.append({
                             "title": title,

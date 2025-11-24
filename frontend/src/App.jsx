@@ -56,7 +56,7 @@ function App() {
 
       const [c, m] = await Promise.all([
         fetchJson('data/cities.json'),
-        fetchJson('data/district_metadata.json') // Fetch consolidated metadata
+        fetchJson('data/metadata.json')
       ]);
 
       if (c) setCities(c);
