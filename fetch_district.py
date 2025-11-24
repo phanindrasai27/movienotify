@@ -257,33 +257,64 @@ def export_metadata():
         cursor.execute('SELECT * FROM movies WHERE city = ?', (city_name,))
         movies = []
         for row in cursor.fetchall():
+            # Clean title - remove "Book " prefix if present
+            title = row['title']
+            if title.startswith("Book "):
+                title = title[5:]
+            
+            # Construct District URL
+            url = f"https://www.district.in/movies/{row['slug']}"
+            
+            # Determine status - if title contains year or certain keywords, mark as re-release
+            # Otherwise default to NOW_SHOWING or COMING_SOON
+            # For now, we'll mark all as NOW_SHOWING since District only shows available movies
+            status = "NOW_SHOWING"
+            
             movies.append({
-                "Title": row['title'],
-                "EventCode": row['slug'], 
-                "City": row['city'],
-                "Language": row['language'],
-                "Format": row['format']
+                "title": title,
+                "url": url,
+                "status": status,
+                "city": row['city'],
+                "language": row['language'],
+                "format": row['format']
             })
             
         # Get Theatres
         cursor.execute('SELECT * FROM theatres WHERE city = ?', (city_name,))
         theatres = []
         for row in cursor.fetchall():
+            # Skip "Unknown Theatre" entries
+            if row['name'] == "Unknown Theatre (Scraped)":
+                continue
+                
             theatres.append({
-                "TheatreName": row['name'],
-                "TheatreCode": row['slug'],
-                "City": row['city']
+                "name": row['name'],
+                "url": f"https://www.district.in/venue/{row['slug']}",  # Construct URL
+                "city": row['city']
             })
             
+        # Get unique formats and languages from movies
+        cursor.execute('SELECT DISTINCT format FROM movies WHERE city = ? AND format IS NOT NULL', (city_name,))
+        formats = [r[0] for r in cursor.fetchall() if r[0] and r[0] != "Unknown"]
+        
+        cursor.execute('SELECT DISTINCT language FROM movies WHERE city = ? AND language IS NOT NULL', (city_name,))
+        languages = [r[0] for r in cursor.fetchall() if r[0] and r[0] != "Unknown"]
+        
         metadata[city_name] = {
             "movies": movies,
             "theatres": theatres,
-            "filters": {"Languages": [], "Formats": []} 
+            "filters": {
+                "formats": formats,
+                "languages": languages
+            }
         }
         
+    conn.close()
+    
     with open(METADATA_FILE, 'w') as f:
         json.dump(metadata, f, indent=2)
     print(f"Saved {METADATA_FILE}")
+
 
 def main():
     cities = load_cities()
