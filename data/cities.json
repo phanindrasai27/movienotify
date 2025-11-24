@@ -1,26 +1,42 @@
 [
     {
         "name": "Chennai",
-        "code": "CHEN"
+        "code": "CHEN",
+        "slug": "chennai"
     },
     {
         "name": "Bengaluru",
-        "code": "BANG"
+        "code": "BANG",
+        "slug": "bengaluru"
     },
     {
         "name": "Hyderabad",
-        "code": "HYD"
+        "code": "HYD",
+        "slug": "hyderabad"
     },
     {
         "name": "Mumbai",
-        "code": "MUMBAI"
+        "code": "MUMBAI",
+        "slug": "mumbai"
     },
     {
         "name": "Delhi-NCR",
-        "code": "NCR"
+        "code": "NCR",
+        "slug": "national-capital-region-ncr"
     },
     {
         "name": "Kochi",
-        "code": "KOCHI"
+        "code": "KOCHI",
+        "slug": "kochi"
+    },
+    {
+        "name": "Pune",
+        "code": "PUNE",
+        "slug": "pune"
+    },
+    {
+        "name": "Kolkata",
+        "code": "KOLK",
+        "slug": "kolkata"
     }
 ]
