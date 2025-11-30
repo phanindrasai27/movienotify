@@ -142,6 +142,30 @@
         "url": "https://in.bookmyshow.com/movies/bengaluru/ET00387652",
         "status": "NOW_SHOWING",
         "city": "Bengaluru"
+      },
+      {
+        "title": "Ishk Mein",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00362760",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "De Pyaar De 2",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00391156",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "Ishq",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00459660",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00426670",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
       }
     ],
     "theatres": [],
@@ -230,6 +254,24 @@
         "url": "https://in.bookmyshow.com/movies/hyderabad/ET00387652",
         "status": "NOW_SHOWING",
         "city": "Hyderabad"
+      },
+      {
+        "title": "Rita",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00471947",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "All Movies Are The Same: Dual",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00462838",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00426670",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
       }
     ],
     "theatres": [],
@@ -316,6 +358,36 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/mumbai/ET00387652",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Kana",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00336599",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Mee Ashi Mee",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00472652",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": ": Bhavanancha Udrek",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00467167",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Shivajiraje Bhosale",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00466206",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00426670",
         "status": "NOW_SHOWING",
         "city": "Mumbai"
       }
@@ -424,6 +496,30 @@
         "url": "https://in.bookmyshow.com/movies/kochi/ET00383697",
         "status": "NOW_SHOWING",
         "city": "Kochi"
+      },
+      {
+        "title": "Rita",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00471947",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Irae",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00457060",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Devil",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00387652",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00426670",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
       }
     ],
     "theatres": [],
@@ -504,6 +600,18 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/pune/ET00387652",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Kana",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00336599",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00426670",
         "status": "NOW_SHOWING",
         "city": "Pune"
       }
@@ -592,6 +700,30 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/kolkata/ET00387652",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Haati Paa Paa",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00466688",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Ishq",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00459660",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Hoye Geche",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00469222",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00426670",
         "status": "NOW_SHOWING",
         "city": "Kolkata"
       }
