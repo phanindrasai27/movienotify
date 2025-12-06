@@ -66,24 +66,6 @@
         "url": "https://in.bookmyshow.com/movies/chennai/ET00383697",
         "status": "NOW_SHOWING",
         "city": "Chennai"
-      },
-      {
-        "title": "Devil",
-        "url": "https://in.bookmyshow.com/movies/chennai/ET00387652",
-        "status": "NOW_SHOWING",
-        "city": "Chennai"
-      },
-      {
-        "title": "Meri Main Tera Main Tera Tu Meri",
-        "url": "https://in.bookmyshow.com/movies/chennai/ET00426670",
-        "status": "NOW_SHOWING",
-        "city": "Chennai"
-      },
-      {
-        "title": ": Love Insurance Kompany",
-        "url": "https://in.bookmyshow.com/movies/chennai/ET00445699",
-        "status": "NOW_SHOWING",
-        "city": "Chennai"
       }
     ],
     "theatres": [],
@@ -158,48 +140,6 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/bengaluru/ET00387652",
-        "status": "NOW_SHOWING",
-        "city": "Bengaluru"
-      },
-      {
-        "title": "Ishk Mein",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00362760",
-        "status": "NOW_SHOWING",
-        "city": "Bengaluru"
-      },
-      {
-        "title": "Nights at Freddy's 2",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00440654",
-        "status": "NOW_SHOWING",
-        "city": "Bengaluru"
-      },
-      {
-        "title": "You See Me: Now You Don't",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00444056",
-        "status": "NOW_SHOWING",
-        "city": "Bengaluru"
-      },
-      {
-        "title": ": Badlands",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00443704",
-        "status": "NOW_SHOWING",
-        "city": "Bengaluru"
-      },
-      {
-        "title": "Meri Main Tera Main Tera Tu Meri",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00426670",
-        "status": "NOW_SHOWING",
-        "city": "Bengaluru"
-      },
-      {
-        "title": ": Love Insurance Kompany",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00445699",
-        "status": "NOW_SHOWING",
-        "city": "Bengaluru"
-      },
-      {
-        "title": "Nayagan",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00430817",
         "status": "NOW_SHOWING",
         "city": "Bengaluru"
       }
@@ -290,42 +230,6 @@
         "url": "https://in.bookmyshow.com/movies/hyderabad/ET00387652",
         "status": "NOW_SHOWING",
         "city": "Hyderabad"
-      },
-      {
-        "title": "Ishk Mein",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00362760",
-        "status": "NOW_SHOWING",
-        "city": "Hyderabad"
-      },
-      {
-        "title": "Nights at Freddy's 2",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00440654",
-        "status": "NOW_SHOWING",
-        "city": "Hyderabad"
-      },
-      {
-        "title": "366 Days",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00473854",
-        "status": "NOW_SHOWING",
-        "city": "Hyderabad"
-      },
-      {
-        "title": "and Memories",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00473855",
-        "status": "NOW_SHOWING",
-        "city": "Hyderabad"
-      },
-      {
-        "title": "Meri Main Tera Main Tera Tu Meri",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00426670",
-        "status": "NOW_SHOWING",
-        "city": "Hyderabad"
-      },
-      {
-        "title": ": Love Insurance Kompany",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00445699",
-        "status": "NOW_SHOWING",
-        "city": "Hyderabad"
       }
     ],
     "theatres": [],
@@ -412,30 +316,6 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/mumbai/ET00387652",
-        "status": "NOW_SHOWING",
-        "city": "Mumbai"
-      },
-      {
-        "title": "Nights at Freddy's 2",
-        "url": "https://in.bookmyshow.com/movies/mumbai/ET00440654",
-        "status": "NOW_SHOWING",
-        "city": "Mumbai"
-      },
-      {
-        "title": "Meri Main Tera Main Tera Tu Meri",
-        "url": "https://in.bookmyshow.com/movies/mumbai/ET00426670",
-        "status": "NOW_SHOWING",
-        "city": "Mumbai"
-      },
-      {
-        "title": ": Love Insurance Kompany",
-        "url": "https://in.bookmyshow.com/movies/mumbai/ET00445699",
-        "status": "NOW_SHOWING",
-        "city": "Mumbai"
-      },
-      {
-        "title": "Nayagan",
-        "url": "https://in.bookmyshow.com/movies/mumbai/ET00430817",
         "status": "NOW_SHOWING",
         "city": "Mumbai"
       }
@@ -544,36 +424,6 @@
         "url": "https://in.bookmyshow.com/movies/kochi/ET00383697",
         "status": "NOW_SHOWING",
         "city": "Kochi"
-      },
-      {
-        "title": "Nights at Freddy's 2",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00440654",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
-      },
-      {
-        "title": ": Badlands",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00443704",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
-      },
-      {
-        "title": "Devil",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00387652",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
-      },
-      {
-        "title": "Meri Main Tera Main Tera Tu Meri",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00426670",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
-      },
-      {
-        "title": ": Love Insurance Kompany",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00445699",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
       }
     ],
     "theatres": [],
@@ -654,36 +504,6 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/pune/ET00387652",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": "Ishk Mein",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00362760",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": "De Pyaar De 2",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00391156",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": "120 Bahadur",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00410659",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": "Meri Main Tera Main Tera Tu Meri",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00426670",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": ": Love Insurance Kompany",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00445699",
         "status": "NOW_SHOWING",
         "city": "Pune"
       }
@@ -772,48 +592,6 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/kolkata/ET00387652",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "Roy & Full Stop Dot Com",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00456216",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "Haati Paa Paa",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00466688",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "Fridge",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00391852",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "Baati",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00458179",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "Dakat",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00428268",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "Meri Main Tera Main Tera Tu Meri",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00426670",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": ": Love Insurance Kompany",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00445699",
         "status": "NOW_SHOWING",
         "city": "Kolkata"
       }
