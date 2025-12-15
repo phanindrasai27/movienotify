@@ -142,6 +142,36 @@
         "url": "https://in.bookmyshow.com/movies/bengaluru/ET00387652",
         "status": "NOW_SHOWING",
         "city": "Bengaluru"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00426670",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": ". Bha. Ba.",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00438691",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": ": Love Insurance Kompany",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00445699",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "Shankara Vara Prasad Garu",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00457184",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "Nayagan",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00430817",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
       }
     ],
     "theatres": [],
@@ -230,6 +260,60 @@
         "url": "https://in.bookmyshow.com/movies/hyderabad/ET00387652",
         "status": "NOW_SHOWING",
         "city": "Hyderabad"
+      },
+      {
+        "title": "Kisko Pyaar Karoon 2",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00440208",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "Ishk Mein",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00362760",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": ": The Final Cut",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00474902",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "(2025)",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00469694",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00426670",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": ". Bha. Ba.",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00438691",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": ": Love Insurance Kompany",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00445699",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "Shankara Vara Prasad Garu",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00457184",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "Nayagan",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00430817",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
       }
     ],
     "theatres": [],
@@ -316,6 +400,54 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/mumbai/ET00387652",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Sweater: The Woolen Sweater",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00471641",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "- Krishna Sada Sahaayate",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00459408",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": ": The Final Cut",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00474902",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00426670",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": ". Bha. Ba.",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00438691",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": ": Love Insurance Kompany",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00445699",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Shankara Vara Prasad Garu",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00457184",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Nayagan",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00430817",
         "status": "NOW_SHOWING",
         "city": "Mumbai"
       }
@@ -424,6 +556,54 @@
         "url": "https://in.bookmyshow.com/movies/kochi/ET00383697",
         "status": "NOW_SHOWING",
         "city": "Kochi"
+      },
+      {
+        "title": "Kisko Pyaar Karoon 2",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00440208",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": ": The Final Cut",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00474902",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "in Bethlehem",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00475079",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00426670",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": ". Bha. Ba.",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00438691",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": ": Love Insurance Kompany",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00445699",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Shankara Vara Prasad Garu",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00457184",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Nayagan",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00430817",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
       }
     ],
     "theatres": [],
@@ -504,6 +684,60 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/pune/ET00387652",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Dr Savita Bhimrao Ambedkar",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00475836",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Vanva Kranticha",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00475740",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Ishk Mein",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00362760",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": ": The Final Cut",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00474902",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00426670",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": ". Bha. Ba.",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00438691",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": ": Love Insurance Kompany",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00445699",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Shankara Vara Prasad Garu",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00457184",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Nayagan",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00430817",
         "status": "NOW_SHOWING",
         "city": "Pune"
       }
@@ -592,6 +826,66 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/kolkata/ET00387652",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Roy & Full Stop Dot Com",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00456216",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Haati Paa Paa",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00466688",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Sondhe Namar Age",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00475616",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Baati",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00458179",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Fridge",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00391852",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00426670",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": ". Bha. Ba.",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00438691",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": ": Love Insurance Kompany",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00445699",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Shankara Vara Prasad Garu",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00457184",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Nayagan",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00430817",
         "status": "NOW_SHOWING",
         "city": "Kolkata"
       }
