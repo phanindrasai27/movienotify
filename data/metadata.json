@@ -142,6 +142,60 @@
         "url": "https://in.bookmyshow.com/movies/bengaluru/ET00387652",
         "status": "NOW_SHOWING",
         "city": "Bengaluru"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00426670",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "45",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00432689",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "Maya",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00473343",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "Paranjum",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00478120",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "(Malayalam)",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00478128",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": ". Bha. Ba.",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00438691",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "Nayagan",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00430817",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "Shankara Vara Prasad Garu",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00457184",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "Siddhartha",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00471446",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
       }
     ],
     "theatres": [],
@@ -230,6 +284,30 @@
         "url": "https://in.bookmyshow.com/movies/hyderabad/ET00387652",
         "status": "NOW_SHOWING",
         "city": "Hyderabad"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00426670",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "Nayagan",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00430817",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "Shankara Vara Prasad Garu",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00457184",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "Siddhartha",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00471446",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
       }
     ],
     "theatres": [],
@@ -316,6 +394,36 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/mumbai/ET00387652",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00426670",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Maya",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00473343",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Nayagan",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00430817",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Shankara Vara Prasad Garu",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00457184",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Siddhartha",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00471446",
         "status": "NOW_SHOWING",
         "city": "Mumbai"
       }
@@ -424,6 +532,48 @@
         "url": "https://in.bookmyshow.com/movies/kochi/ET00383697",
         "status": "NOW_SHOWING",
         "city": "Kochi"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00426670",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Maya",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00473343",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": ". Bha. Ba.",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00438691",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "(Malayalam)",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00478128",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Nayagan",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00430817",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Shankara Vara Prasad Garu",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00457184",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Siddhartha",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00471446",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
       }
     ],
     "theatres": [],
@@ -504,6 +654,42 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/pune/ET00387652",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00426670",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Gangster",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00476038",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "(2025)",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00472587",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Nayagan",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00430817",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Shankara Vara Prasad Garu",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00457184",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Siddhartha",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00471446",
         "status": "NOW_SHOWING",
         "city": "Pune"
       }
@@ -592,6 +778,60 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/kolkata/ET00387652",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Meri Main Tera Main Tera Tu Meri",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00426670",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Gouranger Naam Rey",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00467852",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": ": Ekti Khunir Sandhaney",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00471648",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Roy & Full Stop Dot Com",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00456216",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Hoye Geche",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00469222",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Fridge",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00391852",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Nayagan",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00430817",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Shankara Vara Prasad Garu",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00457184",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Siddhartha",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00471446",
         "status": "NOW_SHOWING",
         "city": "Kolkata"
       }
