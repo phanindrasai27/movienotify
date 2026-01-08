@@ -142,30 +142,6 @@
         "url": "https://in.bookmyshow.com/movies/bengaluru/ET00387652",
         "status": "NOW_SHOWING",
         "city": "Bengaluru"
-      },
-      {
-        "title": "Siddhartha",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00471446",
-        "status": "NOW_SHOWING",
-        "city": "Bengaluru"
-      },
-      {
-        "title": "Shankara Vara Prasad Garu",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00457184",
-        "status": "NOW_SHOWING",
-        "city": "Bengaluru"
-      },
-      {
-        "title": "Pacha: The Ring of Rowdies",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00450610",
-        "status": "NOW_SHOWING",
-        "city": "Bengaluru"
-      },
-      {
-        "title": "-Man: Brand New Day",
-        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00447840",
-        "status": "NOW_SHOWING",
-        "city": "Bengaluru"
       }
     ],
     "theatres": [],
@@ -254,36 +230,6 @@
         "url": "https://in.bookmyshow.com/movies/hyderabad/ET00387652",
         "status": "NOW_SHOWING",
         "city": "Hyderabad"
-      },
-      {
-        "title": "Siddhartha",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00471446",
-        "status": "NOW_SHOWING",
-        "city": "Hyderabad"
-      },
-      {
-        "title": "45",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00432689",
-        "status": "NOW_SHOWING",
-        "city": "Hyderabad"
-      },
-      {
-        "title": "Nayagan",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00430817",
-        "status": "NOW_SHOWING",
-        "city": "Hyderabad"
-      },
-      {
-        "title": "Shankara Vara Prasad Garu",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00457184",
-        "status": "NOW_SHOWING",
-        "city": "Hyderabad"
-      },
-      {
-        "title": "Pacha: The Ring of Rowdies",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00450610",
-        "status": "NOW_SHOWING",
-        "city": "Hyderabad"
       }
     ],
     "theatres": [],
@@ -370,66 +316,6 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/mumbai/ET00387652",
-        "status": "NOW_SHOWING",
-        "city": "Mumbai"
-      },
-      {
-        "title": "Vidyalay Marathi Madhyam",
-        "url": "https://in.bookmyshow.com/movies/mumbai/ET00467820",
-        "status": "NOW_SHOWING",
-        "city": "Mumbai"
-      },
-      {
-        "title": "Housemaid",
-        "url": "https://in.bookmyshow.com/movies/mumbai/ET00469548",
-        "status": "NOW_SHOWING",
-        "city": "Mumbai"
-      },
-      {
-        "title": "SpongeBob Movie: Search for SquarePants",
-        "url": "https://in.bookmyshow.com/movies/mumbai/ET00471506",
-        "status": "NOW_SHOWING",
-        "city": "Mumbai"
-      },
-      {
-        "title": "(2026)",
-        "url": "https://in.bookmyshow.com/movies/mumbai/ET00478123",
-        "status": "NOW_SHOWING",
-        "city": "Mumbai"
-      },
-      {
-        "title": "Kaisen: Hidden Inventory / Premature Death",
-        "url": "https://in.bookmyshow.com/movies/mumbai/ET00479114",
-        "status": "NOW_SHOWING",
-        "city": "Mumbai"
-      },
-      {
-        "title": "Bachelor",
-        "url": "https://in.bookmyshow.com/movies/mumbai/ET00473464",
-        "status": "NOW_SHOWING",
-        "city": "Mumbai"
-      },
-      {
-        "title": "Male To Utssav",
-        "url": "https://in.bookmyshow.com/movies/mumbai/ET00474813",
-        "status": "NOW_SHOWING",
-        "city": "Mumbai"
-      },
-      {
-        "title": "Nayagan",
-        "url": "https://in.bookmyshow.com/movies/mumbai/ET00430817",
-        "status": "NOW_SHOWING",
-        "city": "Mumbai"
-      },
-      {
-        "title": "Shankara Vara Prasad Garu",
-        "url": "https://in.bookmyshow.com/movies/mumbai/ET00457184",
-        "status": "NOW_SHOWING",
-        "city": "Mumbai"
-      },
-      {
-        "title": "Pacha: The Ring of Rowdies",
-        "url": "https://in.bookmyshow.com/movies/mumbai/ET00450610",
         "status": "NOW_SHOWING",
         "city": "Mumbai"
       }
@@ -538,42 +424,6 @@
         "url": "https://in.bookmyshow.com/movies/kochi/ET00383697",
         "status": "NOW_SHOWING",
         "city": "Kochi"
-      },
-      {
-        "title": "Housemaid",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00469548",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
-      },
-      {
-        "title": "SpongeBob Movie: Search for SquarePants",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00471506",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
-      },
-      {
-        "title": "Meri Main Tera Main Tera Tu Meri",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00426670",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
-      },
-      {
-        "title": "Shankara Vara Prasad Garu",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00457184",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
-      },
-      {
-        "title": "Pacha: The Ring of Rowdies",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00450610",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
-      },
-      {
-        "title": "-Man: Brand New Day",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00447840",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
       }
     ],
     "theatres": [],
@@ -654,42 +504,6 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/pune/ET00387652",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": "Vidyalay Marathi Madhyam",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00467820",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": "(2026)",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00478123",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": "Housemaid",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00469548",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": "Nayagan",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00430817",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": "Shankara Vara Prasad Garu",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00457184",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": "Pacha: The Ring of Rowdies",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00450610",
         "status": "NOW_SHOWING",
         "city": "Pune"
       }
@@ -778,48 +592,6 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/kolkata/ET00387652",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "Meri Main Tera Main Tera Tu Meri",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00426670",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "Bharath",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00476624",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "45",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00432689",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": ": The Final Cut",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00474902",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "Nayagan",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00430817",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "Shankara Vara Prasad Garu",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00457184",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "Pacha: The Ring of Rowdies",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00450610",
         "status": "NOW_SHOWING",
         "city": "Kolkata"
       }
