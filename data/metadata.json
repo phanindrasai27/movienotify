@@ -142,6 +142,60 @@
         "url": "https://in.bookmyshow.com/movies/bengaluru/ET00387652",
         "status": "NOW_SHOWING",
         "city": "Bengaluru"
+      },
+      {
+        "title": "Shankara Vara Prasad Garu",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00457184",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "Oka Raju",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00426948",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "Mahasayulaku Wignyapthi",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00472594",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "Nari Naduma Murari",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00478367",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "Vaathiyaar",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00421891",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "Pacha: The Ring of Rowdies",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00450610",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "3D: Ghosts of the Past",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00442151",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "-Man: Brand New Day",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00447840",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
+      },
+      {
+        "title": "(2026)",
+        "url": "https://in.bookmyshow.com/movies/bengaluru/ET00476255",
+        "status": "NOW_SHOWING",
+        "city": "Bengaluru"
       }
     ],
     "theatres": [],
@@ -230,6 +284,54 @@
         "url": "https://in.bookmyshow.com/movies/hyderabad/ET00387652",
         "status": "NOW_SHOWING",
         "city": "Hyderabad"
+      },
+      {
+        "title": "Shankara Vara Prasad Garu",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00457184",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "Oka Raju",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00426948",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "Nari Naduma Murari",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00478367",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "Mahasayulaku Wignyapthi",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00472594",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "Pacha: The Ring of Rowdies",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00450610",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "Patel: Khatarnak Jasoos",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00473816",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "3D: Ghosts of the Past",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00442151",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
+      },
+      {
+        "title": "-Man: Brand New Day",
+        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00447840",
+        "status": "NOW_SHOWING",
+        "city": "Hyderabad"
       }
     ],
     "theatres": [],
@@ -316,6 +418,54 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/mumbai/ET00387652",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Patel: Khatarnak Jasoos",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00473816",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Ketu",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00462933",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "28 Years Later: The Bone Temple",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00461264",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Two Cha Cha Chaa",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00463348",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "Pacha: The Ring of Rowdies",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00450610",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "3D: Ghosts of the Past",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00442151",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "-Man: Brand New Day",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00447840",
+        "status": "NOW_SHOWING",
+        "city": "Mumbai"
+      },
+      {
+        "title": "(2026)",
+        "url": "https://in.bookmyshow.com/movies/mumbai/ET00476255",
         "status": "NOW_SHOWING",
         "city": "Mumbai"
       }
@@ -424,6 +574,60 @@
         "url": "https://in.bookmyshow.com/movies/kochi/ET00383697",
         "status": "NOW_SHOWING",
         "city": "Kochi"
+      },
+      {
+        "title": "Maya",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00473343",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Vaathiyaar",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00421891",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Case",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00480747",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Thambi Thalaimaiyil",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00481251",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Patel: Khatarnak Jasoos",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00473816",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Pacha: The Ring of Rowdies",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00450610",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "Ketu",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00462933",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "3D: Ghosts of the Past",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00442151",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
+      },
+      {
+        "title": "-Man: Brand New Day",
+        "url": "https://in.bookmyshow.com/movies/kochi/ET00447840",
+        "status": "NOW_SHOWING",
+        "city": "Kochi"
       }
     ],
     "theatres": [],
@@ -504,6 +708,54 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/pune/ET00387652",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Patel: Khatarnak Jasoos",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00473816",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Ketu",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00462933",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "28 Years Later: The Bone Temple",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00461264",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Two Cha Cha Chaa",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00463348",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "Pacha: The Ring of Rowdies",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00450610",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "3D: Ghosts of the Past",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00442151",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "-Man: Brand New Day",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00447840",
+        "status": "NOW_SHOWING",
+        "city": "Pune"
+      },
+      {
+        "title": "(2026)",
+        "url": "https://in.bookmyshow.com/movies/pune/ET00476255",
         "status": "NOW_SHOWING",
         "city": "Pune"
       }
@@ -592,6 +844,72 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/kolkata/ET00387652",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Ketu",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00462933",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Patel: Khatarnak Jasoos",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00473816",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "28 Years Later: The Bone Temple",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00461264",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Choritro Bejay Jotil",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00475882",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Two Cha Cha Chaa",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00463348",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "2: Migration",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00466088",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Shankara Vara Prasad Garu",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00457184",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "Pacha: The Ring of Rowdies",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00450610",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "3D: Ghosts of the Past",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00442151",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "-Man: Brand New Day",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00447840",
+        "status": "NOW_SHOWING",
+        "city": "Kolkata"
+      },
+      {
+        "title": "(2026)",
+        "url": "https://in.bookmyshow.com/movies/kolkata/ET00476255",
         "status": "NOW_SHOWING",
         "city": "Kolkata"
       }
