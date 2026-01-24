@@ -230,24 +230,6 @@
         "url": "https://in.bookmyshow.com/movies/hyderabad/ET00387652",
         "status": "NOW_SHOWING",
         "city": "Hyderabad"
-      },
-      {
-        "title": "3D: Ghosts of the Past",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00442151",
-        "status": "NOW_SHOWING",
-        "city": "Hyderabad"
-      },
-      {
-        "title": "(2026)",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00476255",
-        "status": "NOW_SHOWING",
-        "city": "Hyderabad"
-      },
-      {
-        "title": "-Man: Brand New Day",
-        "url": "https://in.bookmyshow.com/movies/hyderabad/ET00447840",
-        "status": "NOW_SHOWING",
-        "city": "Hyderabad"
       }
     ],
     "theatres": [],
@@ -334,24 +316,6 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/mumbai/ET00387652",
-        "status": "NOW_SHOWING",
-        "city": "Mumbai"
-      },
-      {
-        "title": "3D: Ghosts of the Past",
-        "url": "https://in.bookmyshow.com/movies/mumbai/ET00442151",
-        "status": "NOW_SHOWING",
-        "city": "Mumbai"
-      },
-      {
-        "title": "(2026)",
-        "url": "https://in.bookmyshow.com/movies/mumbai/ET00476255",
-        "status": "NOW_SHOWING",
-        "city": "Mumbai"
-      },
-      {
-        "title": "-Man: Brand New Day",
-        "url": "https://in.bookmyshow.com/movies/mumbai/ET00447840",
         "status": "NOW_SHOWING",
         "city": "Mumbai"
       }
@@ -460,60 +424,6 @@
         "url": "https://in.bookmyshow.com/movies/kochi/ET00383697",
         "status": "NOW_SHOWING",
         "city": "Kochi"
-      },
-      {
-        "title": "Supreme",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00460568",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
-      },
-      {
-        "title": "28 Years Later: The Bone Temple",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00461264",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
-      },
-      {
-        "title": "Housemaid",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00469548",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
-      },
-      {
-        "title": "History of Sound",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00470114",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
-      },
-      {
-        "title": "2: Migration",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00466088",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
-      },
-      {
-        "title": "3D: Ghosts of the Past",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00442151",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
-      },
-      {
-        "title": "(2026)",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00476255",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
-      },
-      {
-        "title": "-Man: Brand New Day",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00447840",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
-      },
-      {
-        "title": "Part 2",
-        "url": "https://in.bookmyshow.com/movies/kochi/ET00478890",
-        "status": "NOW_SHOWING",
-        "city": "Kochi"
       }
     ],
     "theatres": [],
@@ -594,48 +504,6 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/pune/ET00387652",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": "Supreme",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00460568",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": "Housemaid",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00469548",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": "28 Years Later: The Bone Temple",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00461264",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": "History of Sound",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00470114",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": "3D: Ghosts of the Past",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00442151",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": "(2026)",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00476255",
-        "status": "NOW_SHOWING",
-        "city": "Pune"
-      },
-      {
-        "title": "-Man: Brand New Day",
-        "url": "https://in.bookmyshow.com/movies/pune/ET00447840",
         "status": "NOW_SHOWING",
         "city": "Pune"
       }
@@ -724,60 +592,6 @@
       {
         "title": "Devil",
         "url": "https://in.bookmyshow.com/movies/kolkata/ET00387652",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "'er Hirey (Kakababu)",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00439312",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "Bhooter Hotel",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00467813",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "Kolorob",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00479732",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "Choritro Bejay Jotil",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00475882",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "Gouranger Naam Rey",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00467852",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "Golpo",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00481621",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "3D: Ghosts of the Past",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00442151",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "(2026)",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00476255",
-        "status": "NOW_SHOWING",
-        "city": "Kolkata"
-      },
-      {
-        "title": "-Man: Brand New Day",
-        "url": "https://in.bookmyshow.com/movies/kolkata/ET00447840",
         "status": "NOW_SHOWING",
         "city": "Kolkata"
       }
